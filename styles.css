@@ -1,3 +1,9 @@
+/* Default style for elements in the page  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Selector for the ul at the navbar */
 .nav-list {
   display: flex;
@@ -8,8 +14,6 @@
   line-height: 32px;
   max-height: 32px;
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
   position: relative;
 }
  
@@ -42,4 +46,55 @@
   padding-right: 20px;
   position: absolute;
   right: 0;
+}
+
+/* Selector for the second row inside nav */
+.second-row-nav {
+  height: 50px;
+  background-color: white;
+}
+
+/* Selector for the container which contains the second row inside nav */
+.second-row-nav ul{
+  width: 100%;
+  list-style: none;
+}
+
+/* Selector for all the links inside second row */
+.second-row-nav a:link {
+  float: left;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  height: 48px;
+  letter-spacing: .04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+  text-decoration: none;
+}
+
+/* Selector which cotanins the container for the serach icon */
+.search-container {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-left: 1px solid #eee;
+}
+
+/* Selector for the search icon from Font Awesome */
+.fa-search {
+  color: #aaa;
+  transform: rotate(75deg);
+  float: right;
+  margin-top: 17px;
+  margin-right: 17px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Selector for the hover effect when hovering over search icon */
+.fa-search:hover {
+  cursor: pointer;
+  color: #424242;
 }
