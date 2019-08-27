@@ -111,6 +111,17 @@
   color: #424242;
 }
 
+/* Selector for the container which contains the hamburger menu */
+.hamburger-container {
+  width: 0;
+  height: 0;
+}
+
+/* Selector for the hamburger menu. Font awesome */
+.fa-bars {
+  visibility: hidden;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
@@ -152,7 +163,43 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
 ==============================================================================*/
 /* These rules will apply below 768px */
 @media (max-width: 768px) {
-  body {
-    background: orange;
+
+  /* Selector for the container of the logo at the navbar */
+  .navbar-logo-container {
+    width: 106px;
+    height: 50px;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+  
+  /* Selector for the ul at the navbar */
+  .nav-list {
+    display: none;
+  }
+
+  /* Selector for the element used to hide my nav elements */
+  .hidden-element-nav-bar {
+    display: none;
+  }
+  
+  /* Selector for the container which contains the hamburger menu */
+  .hamburger-container {
+    float: right;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #f42;
+  }
+
+  /* Selector for the hamburger menu. Font awesome */
+  .fa-bars {
+    width: 16px;
+    height: 16px;
+    visibility: visible;
   }
 }
