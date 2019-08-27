@@ -1,0 +1,45 @@
+/* Selector for the ul at the navbar */
+.nav-list {
+  display: flex;
+  list-style: none;
+  background-color: #131313;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 32px;
+  max-height: 32px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+ 
+/* Selector for the li elements at the ul at the navbar */
+.nav-list li {
+  margin-left: 20px;
+  float: left;
+}
+
+/* Selector for the links at the ul at the navbar */
+.nav-list a:link {
+  text-decoration: none;
+  color: hsla(0,0%,100%,.6);
+}
+
+/* Selector for the links at the ul at the navbar when the user hovers on it */
+.nav-list a:link:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Selector for the first element at the list at the ul at the navbar */
+.nav-list-first-element a:link {
+  color: white;
+}
+
+/* Selector for the container of the li elements to the right at the ul at the navbar */
+.navbar-row-one-right-links {
+  float: right;
+  padding-right: 20px;
+  position: absolute;
+  right: 0;
+}
