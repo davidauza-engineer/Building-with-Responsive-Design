@@ -160,17 +160,28 @@
 .first-grid-article-1 {
   position: relative;
   grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.first-article-background-grid-1 {
+  width: 100%;
+  height: 100%;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Snag_38eebcd-796x431.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.first-grid-article-2 {
-  background-color: #aaa;
-}
-
-.first-grid-article-3 {
-  background-color: antiquewhite;
+.first-grid-article-1-anchor {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  transition: background-color .4s ease;
+  background: rgba(0,0,0,.25) url(/images/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
 }
 
 .first-grid-container{
@@ -181,6 +192,30 @@
 .first-grid-container li {
   display: inline;
   margin-right: 10px;
+  padding-left: 10px;
+}
+
+.text-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-grid-container-header {
+  position: absolute;
+  bottom: 40px;
+  padding-left: 10px;
+}
+
+.text-header {
+  font-size: 50px;
+}
+
+.first-grid-article-2 {
+  background-color: #aaa;
+}
+
+.first-grid-article-3 {
+  background-color: antiquewhite;
 }
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
