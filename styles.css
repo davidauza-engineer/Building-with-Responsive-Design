@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 /* Selector for the container of the logo at the navbar */
@@ -19,7 +20,6 @@
   font-weight: 300;
   line-height: 32px;
   max-height: 32px;
-  font-family: sans-serif;
   position: relative;
 }
  
@@ -69,7 +69,6 @@
 /* Selector for all the links inside the second row */
 .second-row-nav a:link {
   float: left;
-  font-family: sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
@@ -138,85 +137,154 @@
   background-color: #fd3;
   font-size: 13px;
   color: #000;
-  font-family: sans-serif;
   font-weight: 300;
   padding-left: 20px;
 }
 
+/* Selector for the first grid at the first section */
 .first-grid {
   margin: 2px auto;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   grid-gap: 10px;
-  background: orange;
   width: calc(100% - 16px);
   height: 527px;
 }
 
+/* Selector for all section headers */
 .section-headers {
   display: none;
 }
 
-.first-grid-article-1 {
-  position: relative;
+/* Selector for article one at grid one */
+.first-grid-article-one {
   grid-area: 1 / 1 / span 2 / span 2;
+  background-image: url(images/img_turntable.jpg);
+  background-size: 124%;
+  background-position-x: -102px;
+  background-position-y: -2px;
+  position: relative;
 }
 
-.first-article-background-grid-1 {
+/* Selector for the container containing the image used as a second layer for the first article at the first grid */
+.cover-gradient {
   width: 100%;
   height: 100%;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Snag_38eebcd-796x431.png);
-  background-repeat: no-repeat;
+  background-image: url(images/img_cover_gradient.png);
   background-size: cover;
+  opacity: 0.5;
 }
 
-.first-grid-article-1-anchor {
+/* Selector for the logo used on the cover */
+.cover-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 50%;
+  max-height: 112px;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+/* Selector for the logo used on the cover when the user hovers on it*/
+.cover-logo:hover {
+  cursor: pointer;
+}
+
+/* Selector for the date found at the cover */
+.cover-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  z-index: 10;
+}
+
+/* Selector for the date found at the cover when the user hovers on it */
+.cover-date:hover {
+  cursor: auto;
+}
+
+/* Selector for header elements at the first grid */
+.first-grid header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(transparent, black);
+  height: 100%;
+}
+
+/* Selector for header elements at the first grid when the user hovers on it */
+.first-grid header:hover {
+  cursor: pointer;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black);
+}
+
+/* Selector for the container of the header elements at the first article at the first grid */
+.header-container {
+  padding-left: 20px;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.15);
-  transition: background-color .4s ease;
-  background: rgba(0,0,0,.25) url(/images/image-gradient.png) no-repeat;
-  background-size: 100% 100%;
-  display: block;
-  will-change: background-color;
-  z-index: 2;
+  left: 0;
 }
 
-.first-grid-container{
-  position: absolute;
-  bottom: 10px;
-}
-
-.first-grid-container li {
-  display: inline;
-  margin-right: 10px;
-  padding-left: 10px;
-}
-
-.text-header a {
-  text-decoration: none;
+/* Selector for anchors found before the header at articles at first grid */
+.first-grid-article-anchor {
+  text-transform: uppercase;
   color: white;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 14px;
+  position: relative;
+  top: -4px;
 }
 
-.first-grid-container-header {
-  position: absolute;
-  bottom: 40px;
-  padding-left: 10px;
+/* Selector for h2 links at the cover article */
+.cover-article a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 54px;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  font-weight: 700;
 }
 
-.text-header {
-  font-size: 50px;
+/* Selector for the ul at the articles at the first section */
+.first-grid-article-data-container {
+  color:  hsla(0,0%,100%,.6);
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 14px;
 }
 
-.first-grid-article-2 {
-  background-color: #aaa;
+/* Selector for the ul at the articles at the first section when the user hovers on it */
+.first-grid-article-data-container:hover {
+  cursor: text;
 }
 
-.first-grid-article-3 {
-  background-color: antiquewhite;
+/* Selector for the links at the ul at the article at the first section */
+.first-grid-article-data-container a:link {
+  color: hsla(0,0%,100%,.6);
+  text-decoration: none;
 }
+
+/* Selector for the links at the ul at the article at the first section when the user hovers on it */
+.first-grid-article-data-container a:link:hover {
+  color: white; 
+}
+
+/* Selector for the icons placed inside articles at the first section */
+.article-icon {
+  margin: 0 4px 16px 8px;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
