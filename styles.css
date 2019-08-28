@@ -73,7 +73,6 @@
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
-  height: 48px;
   letter-spacing: .04em;
   line-height: 1;
   padding: 18px 10px 0;
@@ -84,6 +83,11 @@
 /* Selector for all the links inside the second row when the user hovers on it */
 .second-row-nav a:link:hover {
   color: #424242;
+}
+
+/* Selector for the first element at the second row at the navbar */
+.latest {
+  padding-left: 10px;
 }
 
 /* Selector which cotanins the container for the serach icon */
@@ -122,6 +126,23 @@
   visibility: hidden;
 }
 
+/* Selector for the yellow link at the navbar */
+.yellow-link {
+  text-decoration: none;
+}
+
+/* Selector for the yellow div at the navbar */
+.yellow-div {
+  box-shadow: 0 16px 48px rgba(0,0,0,.15);
+  line-height: 30px;
+  background-color: #fd3;
+  font-size: 13px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
@@ -148,6 +169,17 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   /* Selector for the ul at the navbar */
   .nav-list {
     display: flex;
+  }
+
+  /* Selector for the unordered list at the second row at the navbar */
+  .second-row-nav ul {
+    position: relative;
+    left: 10px;
+  }
+
+  /* Selector for the yellow div at the container */
+  .yellow-div {
+    padding-left: 130px;
   }
 }
 
@@ -194,6 +226,12 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     align-items: center;
     justify-content: center;
     color: #f42;
+    border-left: 1px solid #eee;
+  }
+
+  /* Selector for the container which contains the hamburger menu when the user hovers on it */
+  .hamburger-container:hover {
+    cursor: pointer;
   }
 
   /* Selector for the hamburger menu. Font awesome */
@@ -201,5 +239,13 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     width: 16px;
     height: 16px;
     visibility: visible;
+    position: relative;
+    right: 4px;
+  }
+
+  /* Selector for the yellow div at navbar */
+  .yellow-div {
+    text-align: center;
+    padding: 0;
   }
 }
