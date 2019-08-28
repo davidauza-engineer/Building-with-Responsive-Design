@@ -285,6 +285,26 @@
   margin: 0 4px 16px 8px;
 }
 
+/* Selector for my second article inside main section */
+.first-grid-article-two {
+  position: relative;
+  background-image: url('images/img_cover_gradient_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Selector for the links inside secondary sections of first grid */
+.second-article-header a:link {
+  font-size: 20px;
+}
+
+/* Selector for the third article insid first grid */
+.first-grid-article-three {
+  position: relative;
+  background-image: url('images/img_cover_gradient_3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
