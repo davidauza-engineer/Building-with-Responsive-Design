@@ -597,15 +597,26 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   /* Selector for the first grid */
   .first-grid {
     grid-template: repeat(3, 1fr) / 1fr;
-    height: 890px;
     width: calc(100% - 20px);
     padding: 0;
     margin: 2px auto;
   }
 
-  /* Selector for the article one inside first grid */
-  .first-grid-article-one {
-    grid-area: 1 / 1 / span 1 / span 1;
+  /* Selector for the whole articles on the first grid */
+  .first-grid-article {
+    min-height: 30vh;
+  }
+
+  /* Selector for anchors found before the header at articles at first grid */
+  .first-grid-article-anchor {
+    position: relative;
+    top: 2px;
+  }
+
+  /* Selector for no cover category at the articles at the first grid */
+  .first-grid-no-cover-category {
+    position: relative;
+    top: -1px;
   }
 
   /* Selector for the text (Headers) inside the first grid */
@@ -613,9 +624,18 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     font-size: 20px;
   }
 
+  /* Selector for the ul at the articles at the first section */
+  .first-grid-article-data-container {
+    margin-top: 4px;
+  }
+  
   /* Selector for the share icon inside my first grid  */
   .share-container {
     display: inline-block;
   }
 
+  /* Selector for the article one inside first grid */
+  .first-grid-article-one {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
 }
