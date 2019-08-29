@@ -318,53 +318,126 @@
   margin-bottom: 6px;
 }
 
+/* Selector for the main header at the second-grid */
+.second-grid-header {
+  margin: 30px 0 30px 64px;
+  font-size: 28px;
+}
+
+/* Selector for the a tag at the main header at the second-grid */
+.second-grid-header a:link {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Selector for the a tag at the main header at the second-grid when the user hovers on it */
+.second-grid-header a:link:hover {
+  color: black;
+}
+
+/* Selector for the second grid */
 .second-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   height: 523px;
-  width: 1178px;
+  width: calc(100% - 128px);
   margin: 0 auto;
 }
 
+/* Selector for the images inside each element at the second grid */
 .second-grid-img {
   width: 270px;
   height: 135px;
   background-size: cover;
+  margin: 0 auto 14px auto;
 }
 
+/* Selector for the images inside each element at the second grid when the user hovers on it */
+.second-grid-img:hover {
+  cursor: pointer;
+}
+
+/* Selector for the first image at the second grid */
 .second-grid-container-img-one {
   background-image: url('images/img_second_grid/img_one.jpg');
   background-size: cover;
 }
 
+/* Selector for the second image at the second grid */
 .second-grid-container-img-two {
   background-image: url('images/img_second_grid/img_two.png');
 }
 
+/* Selector for the third image at the second grid */
 .second-grid-container-img-three {
   background-image: url('images/img_second_grid/img_three.jpg');
 }
 
+/* Selector for the fourth image at the second grid */
 .second-grid-container-img-four {
   background-image: url('images/img_second_grid/img_four.jpg');
 }
 
+/* Selector for the fifth image at the second grid */
 .second-grid-container-img-five {
   background-image: url('images/img_second_grid/img_five.jpg');
 }
 
+/* Selector for the sixth image at the second grid */
 .second-grid-container-img-six {
   background-image: url('images/img_second_grid/img_six.png');
 }
 
+/* Selector for the seventh image at the second grid */
 .second-grid-container-img-seven {
   background-image: url('images/img_second_grid/img_seven.jpg');
 }
 
+/* Selector for the eighth image at the second grid */
 .second-grid-container-img-eight {
   background-image: url('images/img_second_grid/img_eight.jpg');
 }
 
+/* Selector hor h2 inide the second grid's articles */
+.second-grid-article h2 {
+  line-height: 20px;
+  margin: 0 8px 6px 8px;
+}
+
+/* Selector for links inside the second grid's articles */
+.second-grid-article a:link {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Selector for links inside the second grid's articles when the user hovers on it */
+.second-grid-article a:link:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+/* Selector for the ul at the articles at the second grid */
+.second-grid-article ul {
+  display: flex;
+  list-style: none;
+  margin: 0 8px 25px 8px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Selector for links at the ul at the second grid's articles */
+.second-grid-article ul a:link {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Selector for links at the ul at the second grid's articles when the user hovers on it */
+.second-grid-article ul a:link:hover {
+  color: black;
+  text-decoration: none;
+}
 
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
