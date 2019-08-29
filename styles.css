@@ -159,7 +159,7 @@
 /* Selector for article one at grid one */
 .first-grid-article-one {
   grid-area: 1 / 1 / span 2 / span 2;
-  background-image: url(images/img_turntable.jpg);
+  background-image: url(images/img_first_grid/img_turntable.jpg);
   background-size: 124%;
   background-position-x: -102px;
   background-position-y: -2px;
@@ -170,7 +170,7 @@
 .cover-gradient {
   width: 100%;
   height: 100%;
-  background-image: url(images/img_cover_gradient.png);
+  background-image: url(images/img_first_grid/img_cover_gradient.png);
   background-size: cover;
   opacity: 0.5;
 }
@@ -293,7 +293,7 @@
 /* Selector for my second article inside main section */
 .first-grid-article-two {
   position: relative;
-  background-image: url('images/img_cover_gradient_2.png');
+  background-image: url('images/img_first_grid/img_cover_gradient_2.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -307,7 +307,7 @@
 /* Selector for the third article insid first grid */
 .first-grid-article-three {
   position: relative;
-  background-image: url('images/img_cover_gradient_3.png');
+  background-image: url('images/img_first_grid/img_cover_gradient_3.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -317,6 +317,54 @@
   margin-top: 0;
   margin-bottom: 6px;
 }
+
+.second-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  height: 523px;
+  width: 1178px;
+  margin: 0 auto;
+}
+
+.second-grid-img {
+  width: 270px;
+  height: 135px;
+  background-size: cover;
+}
+
+.second-grid-container-img-one {
+  background-image: url('images/img_second_grid/img_one.jpg');
+  background-size: cover;
+}
+
+.second-grid-container-img-two {
+  background-image: url('images/img_second_grid/img_two.png');
+}
+
+.second-grid-container-img-three {
+  background-image: url('images/img_second_grid/img_three.jpg');
+}
+
+.second-grid-container-img-four {
+  background-image: url('images/img_second_grid/img_four.jpg');
+}
+
+.second-grid-container-img-five {
+  background-image: url('images/img_second_grid/img_five.jpg');
+}
+
+.second-grid-container-img-six {
+  background-image: url('images/img_second_grid/img_six.png');
+}
+
+.second-grid-container-img-seven {
+  background-image: url('images/img_second_grid/img_seven.jpg');
+}
+
+.second-grid-container-img-eight {
+  background-image: url('images/img_second_grid/img_eight.jpg');
+}
+
 
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
