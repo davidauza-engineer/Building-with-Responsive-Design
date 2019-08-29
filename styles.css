@@ -244,8 +244,13 @@
   top: -4px;
 }
 
+/* Selector for the header for the cover article at the first grid */
+.cover-article-header {
+  margin-right: 8px;
+}
+
 /* Selector for h2 links at the cover article */
-.cover-article a:link {
+.cover-article-header a:link {
   color: white;
   text-decoration: none;
   font-size: 54px;
@@ -294,7 +299,7 @@
 }
 
 /* Selector for the links inside secondary sections of first grid */
-.no-cover-article a:link {
+.no-cover-article-header a:link {
   font-size: 20px;
 }
 
@@ -366,17 +371,17 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   }
 
   /* Selector for h2 links at the cover article */
-  .cover-article a:link {
+  .cover-article-header a:link {
     font-size: 40px;
   }
 
-  /**/
-  .no-cover-article {
+  /* Selector for article headers that are not the cover */
+  .no-cover-article-header {
     line-height: 0.8;
   }
 
   /* Selector for the links inside secondary sections of first grid */
-  .no-cover-article a:link {
+  .no-cover-article-header a:link {
     font-size: 14px;
   }
 
