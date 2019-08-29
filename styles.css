@@ -122,7 +122,7 @@
 
 /* Selector for the hamburger menu. Font awesome */
 .fa-bars {
-  visibility: hidden;
+  display: none;
 }
 
 /* Selector for the yellow link at the navbar */
@@ -294,7 +294,7 @@
 }
 
 /* Selector for the links inside secondary sections of first grid */
-.second-article-header a:link {
+.no-cover-article a:link {
   font-size: 20px;
 }
 
@@ -305,6 +305,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Selector for ul at articles at the first grid at the first section */
+.first-grid-not-cover-article-data-container {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
@@ -328,27 +335,78 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
     height: 16px;
   }
 
-  /* Selector for the ul at the navbar */
-  .nav-list {
-    display: flex;
-  }
-
-  /* Selector for the unordered list at the second row at the navbar */
-  .second-row-nav ul {
-    position: relative;
-    left: 10px;
-  }
-
   /* Selector for the yellow div at the container */
   .yellow-div {
     padding-left: 130px;
+  }
+
+  /* Selector for the first grid at the first section */
+  .first-grid {
+    height: 360px;
+  }
+
+  /* Selector for the container containing the image used as a second layer for the first article at the first grid */
+  .cover-gradient {
+    display: none;
+  }
+
+  /* Selector for the logo used on the cover */
+  .cover-logo {
+    display: none;
+  }
+
+  /* Selector for the date found at the cover */
+  .cover-date {
+    display: none;
+  }
+
+  /* Selector for the container of the header elements at the first article at the first grid */
+  .header-container {
+    padding-left: 12px;
+  }
+
+  /* Selector for h2 links at the cover article */
+  .cover-article a:link {
+    font-size: 40px;
+  }
+
+  /**/
+  .no-cover-article {
+    line-height: 0.8;
+  }
+
+  /* Selector for the links inside secondary sections of first grid */
+  .no-cover-article a:link {
+    font-size: 14px;
+  }
+
+  /* Selector for no cover category at the articles at the first grid */
+  .first-grid-no-cover-category {
+    position: relative;
+    top: -2px;
+  }
+
+  /* Selector for ul at articles at the first grid at the first section */
+  .first-grid-not-cover-article-data-container {
+    margin-top: 5px;
+    margin-bottom: 1px;
+  }
+
+  /* Selector for the icons placed inside articles at the first section */
+  .article-icon {
+    margin: 0 5px 16px 8px;
+  }
+
+  /* Selector for the share container at the data container at the no cover articles at the first grid */
+  .share-container {
+    display: none;
   }
 }
 
 /* Media query for under 880px */
 @media (max-width: 880px) {
   .navbar-row-one-right-links {
-    visibility: hidden;
+    display: none;
   }
 }
 
@@ -400,9 +458,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .fa-bars {
     width: 16px;
     height: 16px;
-    visibility: visible;
-    position: relative;
-    right: 4px;
+    display: inline-block;
   }
 
   /* Selector for the yellow div at navbar */
