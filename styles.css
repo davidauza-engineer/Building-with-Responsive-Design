@@ -301,6 +301,7 @@
 /* Selector for the links inside secondary sections of first grid */
 .no-cover-article-header a:link {
   font-size: 20px;
+  text-transform: initial;
 }
 
 /* Selector for the third article insid first grid */
@@ -471,4 +472,29 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     text-align: center;
     padding: 0;
   }
+
+  /* Selector for the first grid */
+  .first-grid {
+    grid-template: repeat(3, 1fr) / 1fr;
+    height: 890px;
+    width: calc(100% - 20px);
+    padding: 0;
+    margin: 2px auto;
+  }
+
+  /* Selector for the article one inside first grid */
+  .first-grid-article-one {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  /* Selector for the text (Headers) inside the first grid */
+  .cover-article-header a:link {
+    font-size: 20px;
+  }
+
+  /* Selector for the share icon inside my first grid  */
+  .share-container {
+    display: inline-block;
+  }
+
 }
