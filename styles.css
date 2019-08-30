@@ -542,6 +542,7 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   /* Selector for the text inside my second grid */
   .second-grid h2 {
     font-size: 12px;
+    font-weight: 700;
   }
 
   /* Selector for the ul at the articles at the second grid */
@@ -626,6 +627,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     width: calc(100% - 20px);
     padding: 0;
     margin: 2px auto;
+    height: auto;
   }
 
   /* Selector for the whole articles on the first grid */
@@ -663,5 +665,25 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   /* Selector for the article one inside first grid */
   .first-grid-article-one {
     grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  /* Selector for my second grid template */
+  .second-grid {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-row-gap: 6px;
+  }
+
+  /* Selector for the images inside each element at the second grid */
+  .second-grid-img {
+    width: 77px;
+    height: 77px;
+    background-position-x: 50%;
+    float: left;
+  }
+
+  /* Selector for text elements inside the articles at grid two */
+  .second-grid-768-text {
+    position: relative;
+    left: 12px;
   }
 }
