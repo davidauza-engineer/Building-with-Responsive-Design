@@ -440,6 +440,90 @@
   text-decoration: none;
 }
 
+.third-section {
+  margin: 0 auto;
+  margin-top: 72px;
+  max-width: 1152px;
+}
+
+/* Selector for my third grid */
+.third-article-grid {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  grid-column-gap: 25px;
+  max-width: 1152px;
+  height: 250px;
+  padding: 0 8px;
+  margin: 30px auto 0 auto;
+}
+
+/* Selector for the Main header inside third grid */
+.third-grid-header {
+  display: inline;
+  margin-left: 0;
+}
+
+/* Selector for the links of unordered list at the top of third grid */
+.third-grid-list {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+/* Selector for the links inside the unorderes list. Third grid  */
+.third-grid-list a:link {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Hover effect for the items inside my unorderes list  */
+.third-grid-list a:link:hover {
+  color: black;
+}
+
+/* Style for the vertical bar which works as a separator for the items inside ul third grid  */
+.pipes-style {
+  color: #f42;
+}
+
+/* Selector to define the position of containers of third grid */
+.third-grid-first-row {
+  position: relative;
+}
+
+/* Selector for the first image inside third grid  */
+.img-third-grid {
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  margin-left: 13px;
+  margin-top: 13px;
+}
+
+.img-one-third-grid {
+  z-index: 10;
+  background-image: url('images/img_third_grid/img_one.png');
+}
+
+.third-grid-header-container {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 41px;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+}
+
+.third-grid-header-container a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
