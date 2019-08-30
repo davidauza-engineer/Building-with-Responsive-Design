@@ -346,7 +346,7 @@
 
 /* Selector for the images inside each element at the second grid */
 .second-grid-img {
-  width: 270px;
+  max-width: 270px;
   height: 135px;
   background-size: cover;
   margin: 0 auto 14px auto;
@@ -527,6 +527,14 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   /* Selector for the share container at the data container at the no cover articles at the first grid */
   .share-container {
     display: none;
+  }
+
+  .second-grid {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+
+  .second-grid h2 {
+    font-size: 12px;
   }
 }
 
