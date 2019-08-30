@@ -320,7 +320,7 @@
 
 /* Selector for the main header at the second-grid */
 .second-grid-header {
-  margin: 92px 0 30px 64px;
+  margin: 92px 0 24px 20px;
   font-size: 28px;
 }
 
@@ -342,6 +342,7 @@
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   grid-gap: 25px;
   height: auto;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -361,7 +362,6 @@
 /* Selector for the first image at the second grid */
 .second-grid-container-img-one {
   background-image: url('images/img_second_grid/img_one.jpg');
-  background-size: cover;
 }
 
 /* Selector for the second image at the second grid */
@@ -532,14 +532,27 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
 
   /* Selector for my second grid template */
   .second-grid {
+    width: calc(100% - 40px);
+    margin: 0 auto;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    grid-gap: 20px;
-    margin: 0 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
   }
 
   /* Selector for the text inside my second grid */
   .second-grid h2 {
     font-size: 12px;
+  }
+
+  /* Selector for the ul at the articles at the second grid */
+  .second-grid-article ul {
+    margin: 0 8px 0 8px;
+  }
+
+  /* Selector for the images inside each element at the second grid */
+  .second-grid-img {
+    height: 160px;
+    margin-bottom: 8px;
   }
 }
 
