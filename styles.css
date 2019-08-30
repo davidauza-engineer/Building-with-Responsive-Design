@@ -493,7 +493,8 @@
 
 /* Selector for the first image inside third grid  */
 .img-third-grid {
-  z-index: 100;
+  position: absolute;
+  top: 0;
   width: 60px;
   height: 60px;
   background-size: cover;
@@ -501,13 +502,8 @@
   margin-top: 13px;
 }
 
-.img-one-third-grid {
-  z-index: 10;
-  background-image: url('images/img_third_grid/img_one.png');
-}
-
+/* Selector for the container which contains my headers */
 .third-grid-header-container {
-  z-index: 1;
   width: 100%;
   position: absolute;
   top: 0;
@@ -517,12 +513,23 @@
   align-items: center;
 }
 
+/* Selector for all the headers inside third grid grids */
+.third-grid-header-container h2 {
+  margin-left: 87px;
+}
+
+/* Selector for the header of my third grid grids */
 .third-grid-header-container a:link {
   color: white;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
 }
+
+/* Selector for the sub headers of all my grid elements inside third grid  */
+.third-grid-sub-header {
+
+} 
 
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
