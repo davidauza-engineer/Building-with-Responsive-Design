@@ -652,12 +652,6 @@
   background-size: cover;
 }
 
-/* Selector for the sub header inside fourth article  */
-.fourth-grid-article-second-header {
-  font-size: 20px;
-  margin-bottom: -2px;
-}
-
 /* Selector for the first image at fourth section */
 .fourth-grid-article-image-one {
   background-image: url(images/img_fourth_grid/img_one.jpg);
@@ -706,6 +700,28 @@
 /* Selector for the container which adds a gradient inside the first article of each section at section four when the user hovers on it*/
 .fourth-grid-image-gradient:hover {
   cursor: pointer;
+}
+
+/* Selector for the category at the first article at sections at fourth section */
+.fourth-grid-first-article-catefory {
+  font-size: 13px;
+  margin: 0 2px 0 2px;
+}
+
+/* Selector for the category at the first article at sections at fourth section when the user hovers on it */
+.fourth-grid-first-article-catefory:hover {
+  cursor: default;
+}
+
+/* Selector for the sub header inside fourth article  */
+.fourth-grid-article-second-header a:link {
+  font-size: 20px;
+  margin: 0 2px -2px 2px;
+  line-height: 1.1;
+}
+
+.header-container-fourth-section {
+  padding-left: 12px;
 }
 
 /*==============================================================================
