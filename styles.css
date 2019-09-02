@@ -639,12 +639,22 @@
   margin: 0 0 16px 0;
 }
 
+/* Custom selector for articles at fourth grid */
+.fourth-grid-article {
+  position: relative;
+}
+
 /* Selector for images inside the articles at fourth grid */
 .fourth-grid-article-image {
   min-width: 312px;
-  min-height: 234px;
+  min-height: 277px;
   background-size: cover;
-  
+}
+
+/* Selector for the sub header inside fourth article  */
+.fourth-grid-article-second-header {
+  font-size: 20px;
+  margin-bottom: -2px;
 }
 
 /* Selector for the first image at fourth section */
