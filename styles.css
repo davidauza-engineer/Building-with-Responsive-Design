@@ -442,8 +442,7 @@
 
 /* Selector for the third section */
 .third-section {
-  margin: 0 auto;
-  margin-top: 72px;
+  margin: 72px auto 0 auto;
   max-width: 1152px;
   padding: 0 16px;
 }
@@ -478,7 +477,7 @@
   grid-template: 1fr / repeat(4, 1fr);
   grid-column-gap: 25px;
   max-width: 1152px;
-  height: 250px;
+  height: 270px;
   padding: 0 8px;
   margin: 24px auto 0 auto;
 }
@@ -735,6 +734,31 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
     height: 160px;
     margin-bottom: 8px;
   }
+
+  /* Selector for the links of unordered list at the top of third grid */
+  .third-grid-list {
+    float: none;
+  }
+  
+ /* Selector for my third grid */
+  .third-article-grid {
+    height: 250px;
+    grid-template: 1fr / repeat(3, 1fr); 
+    grid-column-gap: 20px;
+    max-width: 100%;
+    padding: 0;
+    margin: 24px 20px 0 20px;
+  }
+
+  /* Custom class for fourth article third grid */
+  .third-grid-fourth-article {
+    display: none;
+  }
+
+  /* Custom selector for the container for the title at third section  */
+  .third-section-header {
+    margin-left: 20px;
+  }
 }
 
 /* Media query for under 880px */
@@ -865,5 +889,27 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .second-grid-768-text {
     position: relative;
     left: 12px;
+  }
+
+   /* Selector for the links of unordered list at the top of third grid */
+   .third-grid-list {
+    display: block;
+  }
+
+  /* Style for the vertical bar which works as a separator for the items inside ul third grid  */
+  .pipes-style {
+    display: none;
+  }
+
+  /* Selector for the list elements inside third grid list */
+  .third-grid-list li{
+    margin-top: 11px;
+  }
+
+  /* Selector for my third grid */
+  .third-article-grid {
+    grid-template: repeat(3, 1fr) / 1fr; 
+    grid-row-gap: 18px;
+    height: 810px;
   }
 }
