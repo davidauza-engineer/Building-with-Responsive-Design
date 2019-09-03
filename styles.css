@@ -478,7 +478,7 @@
   grid-column-gap: 25px;
   max-width: 1152px;
   height: 270px;
-  padding: 0 8px;
+  padding: 0;
   margin: 24px auto 0 auto;
 }
 
@@ -627,12 +627,11 @@
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   grid-gap: 25px;
   padding: 0 20px;
-  border: 1px solid green;
 }
 
 /* Selector for the header of articles at fourth grid */
 .fourth-grid-article-header {
-  margin: 0 0 16px 0;
+  margin: 0 0 14px 0;
 }
 
 /* Custom selector for articles at fourth grid */
@@ -648,6 +647,7 @@
 /* Selector for images inside the articles at fourth grid */
 .fourth-grid-article-image {
   min-width: 312px;
+  max-width: 100%;
   min-height: 277px;
   background-size: cover;
 }
@@ -703,25 +703,44 @@
 }
 
 /* Selector for the category at the first article at sections at fourth section */
-.fourth-grid-first-article-catefory {
+.fourth-grid-first-article-category {
   font-size: 13px;
-  margin: 0 2px 0 2px;
+  margin: 0 2px 2px 2px;
 }
 
 /* Selector for the category at the first article at sections at fourth section when the user hovers on it */
-.fourth-grid-first-article-catefory:hover {
+.fourth-grid-first-article-category:hover {
   cursor: default;
+}
+
+/* Selector for the container inside the header of the first article at the fourth section */
+.header-container-fourth-section {
+  padding-left: 12px;
+  position: absolute;
+  bottom: 10px;
 }
 
 /* Selector for the sub header inside fourth article  */
 .fourth-grid-article-second-header a:link {
-  font-size: 20px;
-  margin: 0 2px -2px 2px;
+  font-size: 18px;
+  margin: 0 2px 0 2px;
   line-height: 1.1;
 }
 
-.header-container-fourth-section {
-  padding-left: 12px;
+/* Selector for the sub header inside fourth article when the user hovers on it */
+.fourth-grid-article-second-header a:link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255,68,34,.25);
+}
+
+/* Selector for the container of the data for the first article at each section of section four */
+.fourth-grid-article-data-container {
+  margin-left: 2px;
+}
+
+/* Selector for the dot inside the data container at the first article at sections at the fourth section */
+.dot:hover {
+  cursor: default;
 }
 
 /*==============================================================================
