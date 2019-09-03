@@ -743,6 +743,63 @@
   cursor: default;
 }
 
+/* Selector for the second articles containers at the fourth section */
+.fourth-grid-second-article-container {
+  width: 100%;
+  height: 97px;
+  background-color: rgba(255,68,34,.06);
+  position: relative;
+  margin-top: 1px;
+}
+
+/* Selector for the container of the headers at the second articles at the fourth section */
+.fourth-grid-second-article-header-container {
+  height: 100%;
+  width: calc(100% - 97px);
+  color: #f42;
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section */
+.fourth-grid-second-article-header-container a:link {
+  color: #f42;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0 14px 0 14px;
+  position: relative;
+  top: 10px;
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section when the user hovers on it */
+.fourth-grid-second-article-header-container a:link:hover {
+  cursor: text;
+}
+
+/* Selector for the h2 at the second article header at the fourth section */
+.fourth-grid-second-article-header {
+  font-size: 14px;
+  margin: 18px 14px;
+  overflow: hidden;
+}
+
+/* Selector for the h2 at the second article header at the fourth section when the user hovers on it */
+.fourth-grid-second-article-header-container h2:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255,68,34, 0.3);
+  cursor: pointer;
+}
+
+/* Selector for the images at the second articles at the fourth section */
+.fourth-grid-second-article-image {
+  width: 97px;
+  height: 100%;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
