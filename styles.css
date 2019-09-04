@@ -337,9 +337,9 @@
 
 /* Custom class for displaying latest news  */
 .latest-news {
-  padding-left: 8px;
+  padding-left: 20px;
   display: block;
-  max-width: 1152px;
+  max-width: 1172px;
   margin: 64px auto 30px auto;
 }
 
