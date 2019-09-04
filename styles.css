@@ -962,7 +962,7 @@ footer {
   display: flex;
   width: 380px;
   justify-content: space-around;
-  margin: 56px auto 44px auto;
+  margin: 54px auto 44px auto;
   list-style: none;
 }
 
@@ -972,7 +972,7 @@ footer {
   background: #333;
   border: 2px solid #333;
   border-radius: 50%;
-  padding: 12px;
+  padding: 10px;
   text-align: center;
   width: 40px;
 }
@@ -997,7 +997,8 @@ footer {
   margin: 0 auto;
   list-style: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 /* Selector for links inside the second ul element at the footer */
@@ -1195,6 +1196,7 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
 
   .fifth-grid  {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    padding-bottom: 250px;
   }
 
   .latest-deals {
@@ -1413,5 +1415,38 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .fifth-section-sub-header {
     float: right;
     position: relative;
+  }
+
+  /* Selector for the second ul element at the footer */
+  .second-footer-list-container {
+    width: 274px;
+  }
+
+  /* Selector for the first ul element at the footer */
+  .first-footer-list-container {
+    width: 320px;
+    margin-top: 47px;
+  }
+
+  /* Selector for links inside the second ul element at the footer */
+  .second-footer-list-container a:link {
+    margin: 0 6px;
+  }
+
+  /* Selector for the footer */
+  footer {
+    height: 284px;
+  }
+
+  /* Selector for the copyright text container at the very bottom of the page */
+  .copyright-container {
+    display: block;
+    bottom: 34px;
+  }
+
+  /* Selector for the last two spans of the document */
+  .last-spans {
+    display: block;
+    padding-top: 6px;
   }
 }
