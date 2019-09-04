@@ -860,25 +860,31 @@ main {
   color: #555;
 }
 
+/* Fifth section class  */
 .fifth-section {
   padding: 0 20px 320px 20px;
   max-width: 1152px;
   margin: 0 auto;
 }
 
+/* Custom text for the header container  */
 .fifth-section-header-container {
   position: relative;
 }
+
+/* Custom class for red text "Latest Delas"  */
 .latest-deals {
   display: inline;
   margin-left: 0;
 }
 
+/* Custom selector for subheaders  */
 .fifth-section-sub-header {
   float: right;
   margin-top: 7px;
 }
 
+/* Selector for Fifth section grid   */
 .fifth-grid {
   margin-top: 30px;
   display: grid;
@@ -888,26 +894,26 @@ main {
   grid-gap: 30px 25px; 
 }
 
+/* Custom class for images inside fifth section  */
 .fifth-grid-image {
   width: 100%;
 }
 
-.fifth-grid-item {
-  /* border: 3px solid orange;  */
-}
-
+/* Container for the image  */
 .fifth-grid-image-container {
   width: 100%;
   height: 202px;
   position: relative;
 }
 
+/* Container for the image  */
 .fifth-grid-image-container img {
   object-fit: cover;
   max-width: 100%;
   max-height: 201px;
 }
 
+/* Fifth grid container for the yellow image. Disccount image  */
 .fifth-grid-disccount {
   position: absolute;
   top: 0;
@@ -916,6 +922,7 @@ main {
   height: 80px;
 }
 
+/* Custom Selector for disccount text  */
 .disccount-text {
   font-size: 14px;
   font-weight: bold;
@@ -925,16 +932,19 @@ main {
   transform: rotate(45deg);
 }
 
+/* Sub Headers Fifth Grid  */
 .fifth-grid-sub-header {
   font-size: 16px;
 }
 
+/* Custom class for f=hover effect. Fifth section  */
 .fifth-grid-sub-header:hover {
   text-decoration: underline;
   color: #f42;
   text-decoration-color: rgba(255,68,34, 0.3);
 }
 
+/* Custom class for the line trough effect  */
 .middle-line {
   text-decoration: line-through;
   color: #aaa;
@@ -943,6 +953,7 @@ main {
   padding: 3px 0;
 }
 
+/* Custom class for the disccount  */
 .disccount {
   color: #555;
 }
