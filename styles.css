@@ -35,7 +35,7 @@ body {
   max-height: 32px;
   position: relative;
 }
- 
+
 /* Selector for the li elements at the ul at the navbar */
 .nav-list li {
   margin-left: 20px;
@@ -45,7 +45,7 @@ body {
 /* Selector for the links at the ul at the navbar */
 .nav-list a:link {
   text-decoration: none;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* Selector for the links at the ul at the navbar when the user hovers on it */
@@ -74,7 +74,7 @@ body {
 }
 
 /* Selector for the container which contains the second row inside nav */
-.second-row-nav ul{
+.second-row-nav ul {
   width: 100%;
   list-style: none;
 }
@@ -85,7 +85,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: #aaa;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1;
   padding: 18px 10px 0;
   text-decoration: none;
@@ -145,7 +145,7 @@ body {
 
 /* Selector for the yellow div at the navbar */
 .yellow-div {
-  box-shadow: 0 16px 48px rgba(0,0,0,.15);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
   line-height: 30px;
   background-color: #fd3;
   font-size: 13px;
@@ -205,7 +205,7 @@ main {
   z-index: 10;
 }
 
-/* Selector for the logo used on the cover when the user hovers on it*/
+/* Selector for the logo used on the cover when the user hovers on it */
 .cover-logo:hover {
   cursor: pointer;
 }
@@ -279,7 +279,7 @@ main {
 
 /* Selector for the ul at the articles at the first section */
 .first-grid-article-data-container {
-  color:  hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   list-style: none;
   font-size: 12px;
   line-height: 16px;
@@ -294,13 +294,13 @@ main {
 
 /* Selector for the links at the ul at the article at the first section */
 .first-grid-article-data-container a:link {
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
 }
 
 /* Selector for the links at the ul at the article at the first section when the user hovers on it */
 .first-grid-article-data-container a:link:hover {
-  color: white; 
+  color: white;
 }
 
 /* Selector for the icons placed inside articles at the first section */
@@ -558,9 +558,9 @@ main {
 
 /* Selector for the sub headers of all my grid elements inside third grid  */
 .third-grid-sub-header {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
   height: 58px;
-} 
+}
 
 /* Selector for text at sub headers at the third section */
 .third-grid-sub-header-standard-text {
@@ -596,11 +596,11 @@ main {
 
 /* Selector for the second row of the articles inside the third grid */
 .third-grid-second-row {
- list-style: none;
- height: 85px;
- display: grid;
- align-content: center;
- margin-left: 15px;
+  list-style: none;
+  height: 85px;
+  display: grid;
+  align-content: center;
+  margin-left: 15px;
 }
 
 /* Selector for links inside the second row of articles inside the third grid */
@@ -625,7 +625,7 @@ main {
 /* Selector for the third row at the third grid */
 .third-grid-third-row {
   height: 90px;
-  border-top: 1px solid rgba(255,68,34,.25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   display: flex;
   align-items: center;
 }
@@ -723,7 +723,7 @@ main {
   background-image: linear-gradient(transparent, black);
 }
 
-/* Selector for the container which adds a gradient inside the first article of each section at section four when the user hovers on it*/
+/* Selector for the container which adds a gradient inside the first article of each section at section four when the user hovers on it */
 .fourth-grid-image-gradient:hover {
   cursor: pointer;
 }
@@ -756,7 +756,7 @@ main {
 /* Selector for the sub header inside fourth article when the user hovers on it */
 .fourth-grid-article-second-header a:link:hover {
   text-decoration: underline;
-  text-decoration-color: rgba(255,68,34,.25);
+  text-decoration-color: rgba(255, 68, 34, 0.25);
 }
 
 /* Selector for the container of the data for the first article at each section of section four */
@@ -773,7 +773,7 @@ main {
 .fourth-grid-second-article-container {
   width: 100%;
   height: 97px;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
   position: relative;
   margin-top: 1px;
 }
@@ -811,7 +811,7 @@ main {
 /* Selector for the h2 at the second article header at the fourth section when the user hovers on it */
 .fourth-grid-second-article-header-container h2:hover {
   text-decoration: underline;
-  text-decoration-color: rgba(255,68,34, 0.3);
+  text-decoration-color: rgba(255, 68, 34, 0.3);
   cursor: pointer;
 }
 
@@ -826,7 +826,7 @@ main {
   object-fit: cover;
 }
 
- /* Selector for the li elements at fourth section   */
+/* Selector for the li elements at fourth section   */
 .fourth-section-list-element {
   cursor: pointer;
   border-bottom: 1px solid #eee;
@@ -844,7 +844,7 @@ main {
   margin-right: 10px;
   color: #f42;
   font-size: 4px;
-} 
+}
 
 /* Selector for the links inside fourth section  */
 .fourth-section-text-links {
@@ -891,7 +891,7 @@ main {
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   width: 100%;
   height: 600px;
-  grid-gap: 30px 25px; 
+  grid-gap: 30px 25px;
 }
 
 /* Custom class for images inside fifth section  */
@@ -941,7 +941,7 @@ main {
 .fifth-grid-sub-header:hover {
   text-decoration: underline;
   color: #f42;
-  text-decoration-color: rgba(255,68,34, 0.3);
+  text-decoration-color: rgba(255, 68, 34, 0.3);
 }
 
 /* Custom class for the line trough effect  */
@@ -1047,17 +1047,17 @@ b {
   color: #f42;
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
-==============================================================================*/
+============================================================================== */
+
 /* These rules will apply below 1024px */
 @media (max-width: 1024px) {
-
   /* Selector for the container of the logo at the navbar */
   .navbar-logo-container {
     width: 110px;
     height: 82px;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1183,11 +1183,11 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   .third-grid-list {
     float: none;
   }
-  
- /* Selector for my third grid */
+
+  /* Selector for my third grid */
   .third-article-grid {
     height: 250px;
-    grid-template: 1fr / repeat(3, 1fr); 
+    grid-template: 1fr / repeat(3, 1fr);
     grid-column-gap: 20px;
     max-width: 100%;
     padding: 0;
@@ -1205,13 +1205,13 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
     grid-gap: 44px 20px;
   }
 
-  .fifth-grid  {
+  .fifth-grid {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     padding-bottom: 250px;
   }
 
   .latest-deals {
-    display: inline; 
+    display: inline;
   }
 
   .fifth-section-sub-header {
@@ -1228,23 +1228,23 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   }
 }
 
-/*==============================================================================
+/* ==============================================================================
 MEDIA QUERIES FOR UNDER 768PX WIDTH
-==============================================================================*/
+============================================================================== */
+
 /* These rules will apply below 768px */
 @media (max-width: 768px) {
-
   /* Selector for the container of the logo at the navbar */
   .navbar-logo-container {
     width: 106px;
     height: 50px;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     display: flex;
     justify-content: center;
     align-items: center;
     float: left;
   }
-  
+
   /* Selector for the ul at the navbar */
   .nav-list {
     display: none;
@@ -1254,7 +1254,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .hidden-element-nav-bar {
     display: none;
   }
-  
+
   /* Selector for the container which contains the hamburger menu */
   .hamburger-container {
     float: right;
@@ -1320,7 +1320,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .first-grid-article-data-container {
     margin-top: 4px;
   }
-  
+
   /* Selector for the share icon inside my first grid  */
   .share-container {
     display: inline-block;
@@ -1351,14 +1351,14 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     left: 12px;
   }
 
-   /* Selector for the links of unordered list at the top of third grid */
-   .third-grid-list {
+  /* Selector for the links of unordered list at the top of third grid */
+  .third-grid-list {
     display: block;
     margin-top: 16px;
   }
 
   /* Selector for the list elements inside third grid list */
-  .third-grid-list li{
+  .third-grid-list li {
     margin-top: 11px;
   }
 
@@ -1369,7 +1369,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
 
   /* Selector for my third grid */
   .third-article-grid {
-    grid-template: repeat(3, 1fr) / 1fr; 
+    grid-template: repeat(3, 1fr) / 1fr;
     grid-row-gap: 18px;
     height: 810px;
   }
@@ -1390,9 +1390,10 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     height: 70vw;
     min-width: 207px;
   }
+
   /* Selector for my last grid  */
   .fifth-grid {
-    grid-template: repeat(8, 1fr) / repeat(1, 1fr); 
+    grid-template: repeat(8, 1fr) / repeat(1, 1fr);
   }
 
   /* Default container which contains the images inside fifth grid  */
