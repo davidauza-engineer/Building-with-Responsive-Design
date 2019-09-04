@@ -846,7 +846,6 @@
   padding: 0 20px;
   max-width: 1152px;
   margin: 0 auto;
-  background-color: #aaa;
 }
 
 .fifth-section-header-container {
@@ -869,9 +868,63 @@
   height: 600px;
   grid-gap: 30px 25px; 
 }
+
 .fifth-grid-item {
   border: 3px solid orange;
 }
+
+.fifth-grid-image-container {
+  width: 273px;
+  height: 201px;
+  position: relative;
+}
+
+.fifth-grid-image-container img {
+  max-width: 273px;
+  max-height: 201px;
+}
+
+.fifth-grid-disccount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.disccount-text {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 22px;
+  right: -2px;
+  transform: rotate(45deg);
+}
+
+.fifth-grid-sub-header {
+  font-size: 16px;
+}
+
+.fifth-grid-sub-header:hover {
+  text-decoration: underline;
+  color: #f42;
+  text-decoration-color: rgba(255,68,34, 0.3);
+}
+
+.middle-line {
+  text-decoration: line-through;
+  color: black;
+  background-color: rgb(170, 170, 170);
+  font-size: 13px;
+  margin-right: 4px;
+  padding: 3px 0;
+}
+
+.main-navbar {
+  position: fixed;
+  z-index: 20;
+}
+
 /*==============================================================================
 MEDIA QUERIES FOR UNDER 1024PX WIDTH
 ==============================================================================*/
