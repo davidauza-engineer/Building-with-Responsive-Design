@@ -625,7 +625,7 @@
   margin: 75px auto;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  grid-gap: 25px;
+  grid-gap: 32px 25px;
   padding: 0 20px;
 }
 
@@ -815,21 +815,21 @@
 /* Selector for the red bullet points inside fourth section  */
 .fa-circle {
   margin-top: 16px;
-  margin-right: 8px;
+  margin-right: 10px;
   color: #f42;
   font-size: 4px;
 } 
 
 /* Selector for the links inside fourth section  */
 .fourth-section-text-links {
-  margin: 8px 0;
+  margin: 9px 0 7px 0;
 }
 
 /* Selector for the links inside fourth section  */
 .fourth-section-text-links a:link {
   text-decoration: none;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   color: #555;
 }
