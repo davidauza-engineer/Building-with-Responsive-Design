@@ -1144,4 +1144,15 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .third-grid-header {
     font-size: 25px;
   }
+
+  /* Selector for the fourth section grid */
+  .fourth-section-grid {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-gap: 15px;
+  }
+
+  /* Selector for images inside the articles at fourth grid */
+  .fourth-grid-article-image {
+    height: 70vw;
+  }
 }
