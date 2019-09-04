@@ -888,6 +888,10 @@ main {
   grid-gap: 30px 25px; 
 }
 
+.fifth-grid-image {
+  width: 100%;
+}
+
 .fifth-grid-item {
   /* border: 3px solid orange;  */
 }
@@ -1192,6 +1196,16 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   .fifth-grid  {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
   }
+
+  .latest-deals {
+    display: inline; 
+  }
+
+  .fifth-section-sub-header {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
 }
 
 /* Media query for under 880px */
@@ -1363,35 +1377,41 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     height: 70vw;
     min-width: 207px;
   }
-
+  /* Selector for my last grid  */
   .fifth-grid {
     grid-template: repeat(8, 1fr) / repeat(1, 1fr); 
   }
 
+  /* Default container which contains the images inside fifth grid  */
   .fifth-grid-image-container {
-    width: 74px;
-    height: 74px;
+    width: 77px;
+    height: 77px;
     float: left;
     margin-right: 13px;
   }
 
+  /* Selector to hide elements  */
   .hidden-class {
     display: none;
   }
 
+  /* Defeulta secletor for subheaders inside fifth grid  */
   .fifth-grid-sub-header {
-    display: inline;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    line-break: normal;
+    cursor: pointer;
   }
 
+  /* Default selector for "Latest deals" text. Inside fifth grid  */
   .latest-deals {
-    background-color: orange;
     display: inline;
   }
 
+  /* Selector for subheader  */
   .fifth-section-sub-header {
-    background-color: orange;
     float: right;
     position: relative;
-    top: -45px;
   }
 }
