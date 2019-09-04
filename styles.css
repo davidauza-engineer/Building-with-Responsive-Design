@@ -335,6 +335,14 @@
   color: black;
 }
 
+/* Custom class for displaying latest news  */
+.latest-news {
+  padding-left: 8px;
+  display: block;
+  max-width: 1152px;
+  margin: 64px auto 30px auto;
+}
+
 /* Selector for the second grid */
 .second-grid {
   max-width: 1152px;
@@ -948,6 +956,12 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   .second-grid-img {
     height: 160px;
     margin-bottom: 8px;
+  }
+
+  /* Custom class for displaying latest news  */
+  .latest-news {
+    margin: 64px auto 30px 20px;
+    padding-left: 0;
   }
 
   /* Selector for the third section */
