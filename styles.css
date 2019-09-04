@@ -979,6 +979,12 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
   .third-grid-fourth-article {
     display: none;
   }
+
+  /* Selector for the fourth section grid */
+  .fourth-section-grid {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    grid-gap: 44px 20px;
+  }
 }
 
 /* Media query for under 880px */
