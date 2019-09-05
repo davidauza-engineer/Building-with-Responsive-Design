@@ -26,7 +26,7 @@ body {
 
 /* Selector for the ul at the navbar */
 .nav-list {
-  display: flex;
+  display: inline-flex;
   list-style: none;
   background-color: #131313;
   font-size: 13px;
@@ -201,6 +201,11 @@ body {
   padding-right: 20px;
   position: absolute;
   right: 0;
+}
+
+/* Selector for the first row of the navbar */
+.first-row-nav {
+  background-color: #131313;
 }
 
 /* Selector for the second row inside nav */
