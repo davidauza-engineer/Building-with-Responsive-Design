@@ -1333,6 +1333,9 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   /* Selector for the article one inside first grid */
   .first-grid-article-one {
     grid-area: 1 / 1 / span 1 / span 1;
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: 0;
   }
 
   /* Selector for my second grid template */
@@ -1353,6 +1356,8 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .second-grid-768-text {
     position: relative;
     left: 12px;
+    max-height: 60px;
+    overflow: hidden;
   }
 
   /* Selector for the links of unordered list at the top of third grid */
@@ -1425,12 +1430,18 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   /* Default selector for "Latest deals" text. Inside fifth grid  */
   .latest-deals {
     display: inline;
+    font-size: 24px;
+    position: relative;
+    right: 2px;
   }
 
   /* Selector for subheader  */
   .fifth-section-sub-header {
     float: right;
-    position: relative;
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    right: 0;
   }
 
   /* Selector for the second ul element at the footer */
