@@ -54,18 +54,21 @@ body {
 }
 
 /* Selector for the links at the ul at the navbar */
-.nav-list a:link, .nav-list a:visited {
+.nav-list a:link,
+.nav-list a:visited {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
 /* Selector for the first element at the list at the ul at the navbar */
-.nav-list-first-element a:link, .nav-list-first-element a:visited {
+.nav-list-first-element a:link,
+.nav-list-first-element a:visited {
   color: white;
 }
 
 /* Selector for all the links inside the second row */
-.second-row-nav a:link, .second-row-nav a:visited {
+.second-row-nav a:link,
+.second-row-nav a:visited {
   float: left;
   font-weight: 500;
   text-transform: uppercase;
@@ -78,7 +81,8 @@ body {
 }
 
 /* Selector for h2 links at the cover article */
-.cover-article-header a:link, .cover-article-header a:visited {
+.cover-article-header a:link,
+.cover-article-header a:visited {
   color: white;
   text-decoration: none;
   font-size: 54px;
@@ -88,7 +92,8 @@ body {
 }
 
 /* Selector for the links at the ul at the article at the first section */
-.first-grid-article-data-container a:link, .first-grid-article-data-container a:visited {
+.first-grid-article-data-container a:link,
+.first-grid-article-data-container a:visited {
   color: hsla(0, 0%, 100%, 0.6);
   text-decoration: none;
 }
@@ -100,26 +105,30 @@ body {
 }
 
 /* Selector for the a tag at the main header at the second-grid */
-.second-grid-header a:link, .second-grid-header a:visited {
+.second-grid-header a:link,
+.second-grid-header a:visited {
   text-decoration: none;
   color: #f42;
 }
 
 /* Selector for links inside the second grid's articles */
-.second-grid-article a:link, .second-grid-article a:visited {
+.second-grid-article a:link,
+.second-grid-article a:visited {
   color: black;
   text-decoration: none;
   font-size: 16px;
 }
 
 /* Selector for the links inside the unorderes list. Third grid  */
-.third-grid-list a:link, .third-grid-list a:visited {
+.third-grid-list a:link,
+.third-grid-list a:visited {
   text-decoration: none;
   color: #f42;
 }
 
 /* Selector for the header of my third grid grids */
-.third-grid-header-container a:link, .third-grid-header-container a:visited {
+.third-grid-header-container a:link,
+.third-grid-header-container a:visited {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -127,7 +136,8 @@ body {
 }
 
 /* Selector for links inside the second row of articles inside the third grid */
-.third-grid-second-row a:link, .third-grid-second-row a:visited {
+.third-grid-second-row a:link,
+.third-grid-second-row a:visited {
   text-decoration: none;
   color: #555;
   font-size: 13px;
@@ -135,7 +145,8 @@ body {
 }
 
 /* Selector for the links at the third row at the third grid */
-.third-grid-third-row a:link, .third-grid-third-row a:visited {
+.third-grid-third-row a:link,
+.third-grid-third-row a:visited {
   color: #555;
   font-size: 12px;
   text-decoration: none;
@@ -152,7 +163,8 @@ body {
 }
 
 /* Selector for the links inside the container of the headers at the second articles at the fourth section */
-.fourth-grid-second-article-header-container a:link, .fourth-grid-second-article-header-container a:visited {
+.fourth-grid-second-article-header-container a:link,
+.fourth-grid-second-article-header-container a:visited {
   color: #f42;
   text-decoration: none;
   text-transform: uppercase;
@@ -163,7 +175,8 @@ body {
 }
 
 /* Selector for the links inside fourth section  */
-.fourth-section-text-links a:link, .fourth-section-text-links a:visited {
+.fourth-section-text-links a:link,
+.fourth-section-text-links a:visited {
   text-decoration: none;
   font-size: 13px;
   font-weight: 300;
@@ -177,7 +190,8 @@ body {
 }
 
 /* Selector for links inside the second ul element at the footer */
-.second-footer-list-container a:link, .second-footer-list-container a:visited {
+.second-footer-list-container a:link,
+.second-footer-list-container a:visited {
   margin: 0 9px;
   color: #aaa;
   text-decoration: none;
