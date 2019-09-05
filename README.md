@@ -23,7 +23,3 @@ A live version can be found [here](https://raw.githack.com/davidauza-engineer/Bu
 ### Screenshot 3
 
 ![Screenshot 3](screenshots/3.png)
-
-### Screenshot 4
-
-![Screenshot 4](screenshots/4.png)
