@@ -925,7 +925,7 @@ main {
   margin-left: 0;
 }
 
-/* Custom selector for subheaders  */
+/* Selector for subheader at fifth section */
 .fifth-section-sub-header {
   float: right;
   margin-top: 7px;
@@ -1223,19 +1223,23 @@ MEDIA QUERIES FOR UNDER 1024PX WIDTH
     grid-gap: 44px 20px;
   }
 
+  /* Selector for my last grid  */
   .fifth-grid {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     padding-bottom: 250px;
   }
 
+  /* Default selector for "Latest deals" text. Inside fifth grid */
   .latest-deals {
     display: inline;
   }
 
+  /* Selector for subheader at fifth section */
   .fifth-section-sub-header {
+    float: right;
     position: absolute;
     right: 0;
-    bottom: 40px;
+    top: 0;
   }
 }
 
@@ -1414,7 +1418,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     min-width: 207px;
   }
 
-  /* Selector for my last grid  */
+  /* Selector for my last grid */
   .fifth-grid {
     grid-template: repeat(8, 1fr) / repeat(1, 1fr);
   }
@@ -1441,7 +1445,7 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     cursor: pointer;
   }
 
-  /* Default selector for "Latest deals" text. Inside fifth grid  */
+  /* Default selector for "Latest deals" text. Inside fifth grid */
   .latest-deals {
     display: inline;
     font-size: 24px;
@@ -1449,13 +1453,10 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
     right: 2px;
   }
 
-  /* Selector for subheader  */
+  /* Selector for subheader at fifth section */
   .fifth-section-sub-header {
     float: right;
-    position: absolute;
     font-size: 14px;
-    top: 0;
-    right: 0;
   }
 
   /* Selector for the second ul element at the footer */
@@ -1489,5 +1490,13 @@ MEDIA QUERIES FOR UNDER 768PX WIDTH
   .last-spans {
     display: block;
     padding-top: 6px;
+  }
+}
+
+/* These rules will apply below 768px and in landscape orientation for mobile devices */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Selector for the whole articles on the first grid */
+  .first-grid-article {
+    min-height: 60vh;
   }
 }
