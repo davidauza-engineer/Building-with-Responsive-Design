@@ -42,21 +42,157 @@ body {
   float: left;
 }
 
+/* Selector for a tags inside the first ul element at the footer */
+.first-footer-list-container a {
+  height: 40px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+}
+
 /* Selector for the links at the ul at the navbar */
 .nav-list a:link {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
+/* Selector for the first element at the list at the ul at the navbar */
+.nav-list-first-element a:link {
+  color: white;
+}
+
+/* Selector for all the links inside the second row */
+.second-row-nav a:link {
+  float: left;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Selector for h2 links at the cover article */
+.cover-article-header a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 54px;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  font-weight: 700;
+}
+
+/* Selector for the links at the ul at the article at the first section */
+.first-grid-article-data-container a:link {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+}
+
+/* Selector for the links inside secondary sections of first grid */
+.no-cover-article-header a:link {
+  font-size: 20px;
+  text-transform: initial;
+}
+
+/* Selector for the a tag at the main header at the second-grid */
+.second-grid-header a:link {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Selector for links inside the second grid's articles */
+.second-grid-article a:link {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Selector for links at the ul at the second grid's articles */
+.second-grid-article ul a:link {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Selector for the links inside the unorderes list. Third grid  */
+.third-grid-list a:link {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Selector for the header of my third grid grids */
+.third-grid-header-container a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Selector for links inside the second row of articles inside the third grid */
+.third-grid-second-row a:link {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* Selector for the links at the third row at the third grid */
+.third-grid-third-row a:link {
+  color: #555;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* Selector for the sub header inside fourth article  */
+.fourth-grid-article-second-header a:link {
+  font-size: 18px;
+  margin: 0 2px 0 2px;
+  line-height: 1.1;
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section */
+.fourth-grid-second-article-header-container a:link {
+  color: #f42;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0 14px 0 14px;
+  position: relative;
+  top: 10px;
+}
+
+/* Selector for the links inside fourth section  */
+.fourth-section-text-links a:link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #555;
+}
+
+/* Selector for a tags inside the first ul element at the footer when the user hovers on it */
+.first-footer-list-container a:hover {
+  background-color: black;
+}
+
+/* Selector for links inside the second ul element at the footer */
+.second-footer-list-container a:link {
+  margin: 0 9px;
+  color: #aaa;
+  text-decoration: none;
+}
+
 /* Selector for the links at the ul at the navbar when the user hovers on it */
 .nav-list a:link:hover {
   color: white;
   cursor: pointer;
-}
-
-/* Selector for the first element at the list at the ul at the navbar */
-.nav-list-first-element a:link {
-  color: white;
 }
 
 /* Selector for the container of the li elements to the right at the ul at the navbar */
@@ -77,19 +213,6 @@ body {
 .second-row-nav ul {
   width: 100%;
   list-style: none;
-}
-
-/* Selector for all the links inside the second row */
-.second-row-nav a:link {
-  float: left;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #aaa;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  padding: 18px 10px 0;
-  text-decoration: none;
-  font-size: 13px;
 }
 
 /* Selector for all the links inside the second row when the user hovers on it */
@@ -267,16 +390,6 @@ main {
   margin-right: 8px;
 }
 
-/* Selector for h2 links at the cover article */
-.cover-article-header a:link {
-  color: white;
-  text-decoration: none;
-  font-size: 54px;
-  line-height: 1;
-  margin-bottom: 0.25em;
-  font-weight: 700;
-}
-
 /* Selector for the ul at the articles at the first section */
 .first-grid-article-data-container {
   color: hsla(0, 0%, 100%, 0.6);
@@ -290,12 +403,6 @@ main {
 /* Selector for the ul at the articles at the first section when the user hovers on it */
 .first-grid-article-data-container:hover {
   cursor: text;
-}
-
-/* Selector for the links at the ul at the article at the first section */
-.first-grid-article-data-container a:link {
-  color: hsla(0, 0%, 100%, 0.6);
-  text-decoration: none;
 }
 
 /* Selector for the links at the ul at the article at the first section when the user hovers on it */
@@ -316,12 +423,6 @@ main {
   background-repeat: no-repeat;
 }
 
-/* Selector for the links inside secondary sections of first grid */
-.no-cover-article-header a:link {
-  font-size: 20px;
-  text-transform: initial;
-}
-
 /* Selector for the third article insid first grid */
 .first-grid-article-three {
   position: relative;
@@ -340,12 +441,6 @@ main {
 .second-grid-header {
   margin: 92px 0 24px 20px;
   font-size: 28px;
-}
-
-/* Selector for the a tag at the main header at the second-grid */
-.second-grid-header a:link {
-  text-decoration: none;
-  color: #f42;
 }
 
 /* Selector for the a tag at the main header at the second-grid when the user hovers on it */
@@ -431,13 +526,6 @@ main {
   margin: 0 8px 6px 8px;
 }
 
-/* Selector for links inside the second grid's articles */
-.second-grid-article a:link {
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-}
-
 /* Selector for links inside the second grid's articles when the user hovers on it */
 .second-grid-article a:link:hover {
   color: #f42;
@@ -454,10 +542,35 @@ main {
   font-weight: 300;
 }
 
-/* Selector for links at the ul at the second grid's articles */
-.second-grid-article ul a:link {
-  color: #aaa;
-  font-size: 12px;
+/* Hover effect for the items inside my unorderes list  */
+.third-grid-list a:link:hover {
+  color: black;
+}
+
+/* Selector for links inside the second row of articles inside the third grid when the user hovers on it */
+.third-grid-second-row a:link:hover {
+  color: black;
+}
+
+/* Selector for the sub header inside fourth article when the user hovers on it */
+.fourth-grid-article-second-header a:link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 68, 34, 0.25);
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section when the user hovers on it */
+.fourth-grid-second-article-header-container a:link:hover {
+  cursor: text;
+}
+
+/* Selector for the hover effect for the li elemets inside fourth section */
+.fourth-section-list-element a:link:hover {
+  color: black;
+}
+
+/* Selector for links inside the second ul element at the footer when the user hovers on it */
+.second-footer-list-container a:link:hover {
+  color: white;
 }
 
 /* Selector for links at the ul at the second grid's articles when the user hovers on it */
@@ -508,17 +621,6 @@ main {
   margin: 24px auto 0 auto;
 }
 
-/* Selector for the links inside the unorderes list. Third grid  */
-.third-grid-list a:link {
-  text-decoration: none;
-  color: #f42;
-}
-
-/* Hover effect for the items inside my unorderes list  */
-.third-grid-list a:link:hover {
-  color: black;
-}
-
 /* Selector for the articles at the third grid */
 .third-grid-article {
   background-color: #fffaf8;
@@ -546,14 +648,6 @@ main {
 /* Selector for all the headers inside third grid grids */
 .third-grid-header-container h2 {
   margin-left: 84px;
-}
-
-/* Selector for the header of my third grid grids */
-.third-grid-header-container a:link {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
 }
 
 /* Selector for the sub headers of all my grid elements inside third grid  */
@@ -603,23 +697,10 @@ main {
   margin-left: 15px;
 }
 
-/* Selector for links inside the second row of articles inside the third grid */
-.third-grid-second-row a:link {
-  text-decoration: none;
-  color: #555;
-  font-size: 13px;
-  font-weight: 300;
-}
-
 /* Selector for i tags inside the second row of articles inside the third grid */
 .third-grid-second-row i {
   color: black;
   padding: 0 12px 12px 0;
-}
-
-/* Selector for links inside the second row of articles inside the third grid when the user hovers on it */
-.third-grid-second-row a:link:hover {
-  color: black;
 }
 
 /* Selector for the third row at the third grid */
@@ -628,16 +709,6 @@ main {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
   display: flex;
   align-items: center;
-}
-
-/* Selector for the links at the third row at the third grid */
-.third-grid-third-row a:link {
-  color: #555;
-  font-size: 12px;
-  text-decoration: none;
-  margin: 0 18px;
-  line-height: 20px;
-  font-weight: 400;
 }
 
 /* Selector for spans at the third row at the third grid */
@@ -746,19 +817,6 @@ main {
   bottom: 10px;
 }
 
-/* Selector for the sub header inside fourth article  */
-.fourth-grid-article-second-header a:link {
-  font-size: 18px;
-  margin: 0 2px 0 2px;
-  line-height: 1.1;
-}
-
-/* Selector for the sub header inside fourth article when the user hovers on it */
-.fourth-grid-article-second-header a:link:hover {
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 68, 34, 0.25);
-}
-
 /* Selector for the container of the data for the first article at each section of section four */
 .fourth-grid-article-data-container {
   margin-left: 2px;
@@ -783,22 +841,6 @@ main {
   height: 100%;
   width: calc(100% - 97px);
   color: #f42;
-}
-
-/* Selector for the links inside the container of the headers at the second articles at the fourth section */
-.fourth-grid-second-article-header-container a:link {
-  color: #f42;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  margin: 0 14px 0 14px;
-  position: relative;
-  top: 10px;
-}
-
-/* Selector for the links inside the container of the headers at the second articles at the fourth section when the user hovers on it */
-.fourth-grid-second-article-header-container a:link:hover {
-  cursor: text;
 }
 
 /* Selector for the h2 at the second article header at the fourth section */
@@ -833,11 +875,6 @@ main {
   display: flex;
 }
 
-/* Selector for the hover effect for the li elemets inside fourth section */
-.fourth-section-list-element a:link:hover {
-  color: black;
-}
-
 /* Selector for the red bullet points inside fourth section  */
 .fa-circle {
   margin-top: 16px;
@@ -849,15 +886,6 @@ main {
 /* Selector for the links inside fourth section  */
 .fourth-section-text-links {
   margin: 9px 0 7px 0;
-}
-
-/* Selector for the links inside fourth section  */
-.fourth-section-text-links a:link {
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #555;
 }
 
 /* Fifth section class  */
@@ -977,22 +1005,6 @@ footer {
   list-style: none;
 }
 
-/* Selector for a tags inside the first ul element at the footer */
-.first-footer-list-container a {
-  height: 40px;
-  background: #333;
-  border: 2px solid #333;
-  border-radius: 50%;
-  padding: 10px;
-  text-align: center;
-  width: 40px;
-}
-
-/* Selector for a tags inside the first ul element at the footer when the user hovers on it */
-.first-footer-list-container a:hover {
-  background-color: black;
-}
-
 /* Selector for logo elements inside the first ul element at the footer */
 .footer-logo {
   color: white;
@@ -1012,21 +1024,8 @@ footer {
   font-weight: 300;
 }
 
-/* Selector for links inside the second ul element at the footer */
-.second-footer-list-container a:link {
-  margin: 0 9px;
-  color: #aaa;
-  text-decoration: none;
-}
-
-/* Selector for links inside the second ul element at the footer when the user hovers on it */
-.second-footer-list-container a:link:hover {
-  color: white;
-}
-
 /* Selector for the copyright text container at the very bottom of the page */
 .copyright-container {
-  color: white;
   position: absolute;
   bottom: 42px;
   display: flex;
