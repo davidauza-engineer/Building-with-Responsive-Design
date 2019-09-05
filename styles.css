@@ -112,12 +112,6 @@ body {
   font-size: 16px;
 }
 
-/* Selector for links at the ul at the second grid's articles */
-.second-grid-article ul a:link {
-  color: #aaa;
-  font-size: 12px;
-}
-
 /* Selector for the links inside the unorderes list. Third grid  */
 .third-grid-list a:link {
   text-decoration: none;
@@ -187,6 +181,12 @@ body {
   margin: 0 9px;
   color: #aaa;
   text-decoration: none;
+}
+
+/* Selector for links at the ul at the second grid's articles */
+.second-grid-article ul a:link {
+  color: #aaa;
+  font-size: 12px;
 }
 
 /* Selector for the links at the ul at the navbar when the user hovers on it */
