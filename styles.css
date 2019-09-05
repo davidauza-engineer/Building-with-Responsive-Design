@@ -1,0 +1,1502 @@
+/* Default style for elements in the page  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Selector for the body  */
+body {
+  position: relative;
+}
+
+/* Selector for the main navbar  */
+.main-navbar {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  margin-top: 0;
+}
+
+/* Selector for the container of the logo at the navbar */
+.navbar-logo-container {
+  width: 0;
+  height: 0;
+}
+
+/* Selector for the ul at the navbar */
+.nav-list {
+  display: inline-flex;
+  list-style: none;
+  background-color: #131313;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+}
+
+/* Selector for the li elements at the ul at the navbar */
+.nav-list li {
+  margin-left: 20px;
+  float: left;
+}
+
+/* Selector for a tags inside the first ul element at the footer */
+.first-footer-list-container a {
+  height: 40px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+}
+
+/* Selector for the links at the ul at the navbar */
+.nav-list a:link,
+.nav-list a:visited {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* Selector for the first element at the list at the ul at the navbar */
+.nav-list-first-element a:link,
+.nav-list-first-element a:visited {
+  color: white;
+}
+
+/* Selector for all the links inside the second row */
+.second-row-nav a:link,
+.second-row-nav a:visited {
+  float: left;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Selector for h2 links at the cover article */
+.cover-article-header a:link,
+.cover-article-header a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 54px;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  font-weight: 700;
+}
+
+/* Selector for the links at the ul at the article at the first section */
+.first-grid-article-data-container a:link,
+.first-grid-article-data-container a:visited {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+}
+
+/* Selector for the links inside secondary sections of first grid */
+.no-cover-article-header a:link {
+  font-size: 20px;
+  text-transform: initial;
+}
+
+/* Selector for the a tag at the main header at the second-grid */
+.second-grid-header a:link,
+.second-grid-header a:visited {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Selector for links inside the second grid's articles */
+.second-grid-article a:link,
+.second-grid-article a:visited {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Selector for the links inside the unorderes list. Third grid  */
+.third-grid-list a:link,
+.third-grid-list a:visited {
+  text-decoration: none;
+  color: #f42;
+}
+
+/* Selector for the header of my third grid grids */
+.third-grid-header-container a:link,
+.third-grid-header-container a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Selector for links inside the second row of articles inside the third grid */
+.third-grid-second-row a:link,
+.third-grid-second-row a:visited {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* Selector for the links at the third row at the third grid */
+.third-grid-third-row a:link,
+.third-grid-third-row a:visited {
+  color: #555;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* Selector for the sub header inside fourth article  */
+.fourth-grid-article-second-header a:link {
+  font-size: 18px;
+  margin: 0 2px 0 2px;
+  line-height: 1.1;
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section */
+.fourth-grid-second-article-header-container a:link,
+.fourth-grid-second-article-header-container a:visited {
+  color: #f42;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0 14px 0 14px;
+  position: relative;
+  top: 10px;
+}
+
+/* Selector for the links inside fourth section  */
+.fourth-section-text-links a:link,
+.fourth-section-text-links a:visited {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #555;
+}
+
+/* Selector for a tags inside the first ul element at the footer when the user hovers on it */
+.first-footer-list-container a:hover {
+  background-color: black;
+}
+
+/* Selector for links inside the second ul element at the footer */
+.second-footer-list-container a:link,
+.second-footer-list-container a:visited {
+  margin: 0 9px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* Selector for links at the ul at the second grid's articles */
+.second-grid-article ul a:link {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Selector for the links at the ul at the navbar when the user hovers on it */
+.nav-list a:link:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Selector for the container of the li elements to the right at the ul at the navbar */
+.navbar-row-one-right-links {
+  float: right;
+  padding-right: 20px;
+  position: absolute;
+  right: 0;
+}
+
+/* Selector for the first row of the navbar */
+.first-row-nav {
+  background-color: #131313;
+}
+
+/* Selector for the second row inside nav */
+.second-row-nav {
+  height: 50px;
+  background-color: white;
+}
+
+/* Selector for the container which contains the second row inside nav */
+.second-row-nav ul {
+  width: 100%;
+  list-style: none;
+}
+
+/* Selector for all the links inside the second row when the user hovers on it */
+.second-row-nav a:link:hover {
+  color: #424242;
+}
+
+/* Selector for the first element at the second row at the navbar */
+.latest {
+  padding-left: 10px;
+}
+
+/* Selector which cotanins the container for the serach icon */
+.search-container {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border-left: 1px solid #eee;
+}
+
+/* Selector for the search icon from Font Awesome */
+.fa-search {
+  color: #aaa;
+  transform: rotate(75deg);
+  float: right;
+  margin-top: 17px;
+  margin-right: 17px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Selector for the hover effect when hovering over search icon */
+.fa-search:hover {
+  cursor: pointer;
+  color: #424242;
+}
+
+/* Selector for the container which contains the hamburger menu */
+.hamburger-container {
+  width: 0;
+  height: 0;
+}
+
+/* Selector for the hamburger menu. Font awesome */
+.fa-bars {
+  display: none;
+}
+
+/* Selector for the yellow link at the navbar */
+.yellow-link {
+  text-decoration: none;
+}
+
+/* Selector for the yellow div at the navbar */
+.yellow-div {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  line-height: 30px;
+  background-color: #fd3;
+  font-size: 13px;
+  color: #000;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+/* Selector for main  */
+main {
+  padding-top: 113px;
+}
+
+/* Selector for the first grid at the first section */
+.first-grid {
+  margin: 2px auto;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-gap: 10px;
+  width: calc(100% - 16px);
+  height: 527px;
+}
+
+/* Selector for all section headers */
+.section-headers {
+  display: none;
+}
+
+/* Selector for article one at grid one */
+.first-grid-article-one {
+  grid-area: 1 / 1 / span 2 / span 2;
+  background-image: url(images/img_first_grid/img_turntable.jpg);
+  background-size: 124%;
+  background-position-x: -102px;
+  background-position-y: -2px;
+  position: relative;
+}
+
+/* Selector for the container containing the image used as a second layer for the first article at the first grid */
+.cover-gradient {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/img_first_grid/img_cover_gradient.png);
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/* Selector for the logo used on the cover */
+.cover-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 50%;
+  max-height: 112px;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+/* Selector for the logo used on the cover when the user hovers on it */
+.cover-logo:hover {
+  cursor: pointer;
+}
+
+/* Selector for the date found at the cover */
+.cover-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  z-index: 10;
+}
+
+/* Selector for the date found at the cover when the user hovers on it */
+.cover-date:hover {
+  cursor: auto;
+}
+
+/* Selector for header elements at the first grid */
+.first-grid header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(transparent, black);
+  height: 100%;
+}
+
+/* Selector for header elements at the first grid when the user hovers on it */
+.first-grid header:hover {
+  cursor: pointer;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black);
+}
+
+/* Selector for the container of the header elements at the first article at the first grid */
+.header-container {
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Selector for anchors found before the header at articles at first grid */
+.first-grid-article-anchor {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+}
+
+/* Selector for the header for the cover article at the first grid */
+.cover-article-header {
+  margin-right: 8px;
+}
+
+/* Selector for the ul at the articles at the first section */
+.first-grid-article-data-container {
+  color: hsla(0, 0%, 100%, 0.6);
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  margin-top: 14px;
+}
+
+/* Selector for the ul at the articles at the first section when the user hovers on it */
+.first-grid-article-data-container:hover {
+  cursor: text;
+}
+
+/* Selector for the links at the ul at the article at the first section when the user hovers on it */
+.first-grid-article-data-container a:link:hover {
+  color: white;
+}
+
+/* Selector for the icons placed inside articles at the first section */
+.article-icon {
+  margin: 0 4px 16px 8px;
+}
+
+/* Selector for my second article inside main section */
+.first-grid-article-two {
+  position: relative;
+  background-image: url('images/img_first_grid/img_cover_gradient_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Selector for the third article insid first grid */
+.first-grid-article-three {
+  position: relative;
+  background-image: url('images/img_first_grid/img_cover_gradient_3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Selector for ul at articles at the first grid at the first section */
+.first-grid-not-cover-article-data-container {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+/* Selector for the main header at the second-grid */
+.second-grid-header {
+  margin: 92px 0 24px 20px;
+  font-size: 28px;
+}
+
+/* Selector for the a tag at the main header at the second-grid when the user hovers on it */
+.second-grid-header a:link:hover {
+  color: black;
+}
+
+/* Custom class for displaying latest news  */
+.latest-news {
+  padding-left: 20px;
+  display: block;
+  max-width: 1172px;
+  margin: 64px auto 30px auto;
+}
+
+/* Selector for the second grid */
+.second-grid {
+  max-width: 1152px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  grid-gap: 25px;
+  height: auto;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* Selector for the images inside each element at the second grid */
+.second-grid-img {
+  width: 100%;
+  margin-bottom: 14px;
+  height: 135px;
+  background-size: cover;
+}
+
+/* Selector for the images inside each element at the second grid when the user hovers on it */
+.second-grid-img:hover {
+  cursor: pointer;
+}
+
+/* Selector for the first image at the second grid */
+.second-grid-container-img-one {
+  background-image: url('images/img_second_grid/img_one.jpg');
+}
+
+/* Selector for the second image at the second grid */
+.second-grid-container-img-two {
+  background-image: url('images/img_second_grid/img_two.png');
+}
+
+/* Selector for the third image at the second grid */
+.second-grid-container-img-three {
+  background-image: url('images/img_second_grid/img_three.jpg');
+}
+
+/* Selector for the fourth image at the second grid */
+.second-grid-container-img-four {
+  background-image: url('images/img_second_grid/img_four.jpg');
+}
+
+/* Selector for the fifth image at the second grid */
+.second-grid-container-img-five {
+  background-image: url('images/img_second_grid/img_five.jpg');
+}
+
+/* Selector for the sixth image at the second grid */
+.second-grid-container-img-six {
+  background-image: url('images/img_second_grid/img_six.png');
+}
+
+/* Selector for the seventh image at the second grid */
+.second-grid-container-img-seven {
+  background-image: url('images/img_second_grid/img_seven.jpg');
+}
+
+/* Selector for the eighth image at the second grid */
+.second-grid-container-img-eight {
+  background-image: url('images/img_second_grid/img_eight.jpg');
+}
+
+/* Selector hor h2 inide the second grid's articles */
+.second-grid-article h2 {
+  line-height: 20px;
+  margin: 0 8px 6px 8px;
+}
+
+/* Selector for links inside the second grid's articles when the user hovers on it */
+.second-grid-article a:link:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+/* Selector for the ul at the articles at the second grid */
+.second-grid-article ul {
+  display: flex;
+  list-style: none;
+  margin: 0 8px 25px 8px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Hover effect for the items inside my unorderes list  */
+.third-grid-list a:link:hover {
+  color: black;
+}
+
+/* Selector for links inside the second row of articles inside the third grid when the user hovers on it */
+.third-grid-second-row a:link:hover {
+  color: black;
+}
+
+/* Selector for the sub header inside fourth article when the user hovers on it */
+.fourth-grid-article-second-header a:link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 68, 34, 0.25);
+}
+
+/* Selector for the links inside the container of the headers at the second articles at the fourth section when the user hovers on it */
+.fourth-grid-second-article-header-container a:link:hover {
+  cursor: text;
+}
+
+/* Selector for the hover effect for the li elemets inside fourth section */
+.fourth-section-list-element a:link:hover {
+  color: black;
+}
+
+/* Selector for links inside the second ul element at the footer when the user hovers on it */
+.second-footer-list-container a:link:hover {
+  color: white;
+}
+
+/* Selector for links at the ul at the second grid's articles when the user hovers on it */
+.second-grid-article ul a:link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Selector for the third section */
+.third-section {
+  margin: 72px auto 0 auto;
+  max-width: 1152px;
+  padding: 0 16px;
+}
+
+/* Selector for the Main header inside third grid */
+.third-grid-header {
+  display: inline;
+  margin-left: 0;
+}
+
+/* Selector for the links of unordered list at the top of third grid */
+.third-grid-list {
+  display: flex;
+  list-style: none;
+  float: right;
+  margin-top: 12px;
+}
+
+/* Style for the vertical bar which works as a separator for the items inside ul third grid  */
+.pipes-style {
+  color: #f42;
+}
+
+/* Style for the vertical bar which works as a separator for the items inside ul third grid when the user hovers on it */
+.pipes-style:hover {
+  cursor: default;
+}
+
+/* Selector for my third grid */
+.third-article-grid {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  grid-column-gap: 25px;
+  max-width: 1152px;
+  height: 270px;
+  padding: 0;
+  margin: 24px auto 0 auto;
+}
+
+/* Selector for the articles at the third grid */
+.third-grid-article {
+  background-color: #fffaf8;
+}
+
+/* Selector to define the position of containers of third grid */
+.third-grid-first-row {
+  position: relative;
+}
+
+/* Selector to define the position of containers of third grid when the user hovers on it */
+.third-grid-first-row:hover {
+  cursor: pointer;
+}
+
+/* Selector for the container which contains my headers */
+.third-grid-header-container {
+  width: 100%;
+  height: 40px;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+}
+
+/* Selector for all the headers inside third grid grids */
+.third-grid-header-container h2 {
+  margin-left: 84px;
+}
+
+/* Selector for the sub headers of all my grid elements inside third grid  */
+.third-grid-sub-header {
+  background-color: rgba(255, 68, 34, 0.08);
+  height: 58px;
+}
+
+/* Selector for text at sub headers at the third section */
+.third-grid-sub-header-standard-text {
+  width: 30%;
+  display: block;
+  position: relative;
+  left: 86px;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 2px;
+}
+
+/* Selector for bolded text at sub headers at the third section */
+.third-grid-sub-header-bold-text {
+  font-weight: 900;
+  opacity: 1;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+/* Selector for the first image inside third grid  */
+.img-third-grid {
+  position: absolute;
+  top: 0;
+  width: 62px;
+  height: 62px;
+  background-size: cover;
+  margin: 10px 0 0 10px;
+}
+
+/* Selector for the second row of the articles inside the third grid */
+.third-grid-second-row {
+  list-style: none;
+  height: 85px;
+  display: grid;
+  align-content: center;
+  margin-left: 15px;
+}
+
+/* Selector for i tags inside the second row of articles inside the third grid */
+.third-grid-second-row i {
+  color: black;
+  padding: 0 12px 12px 0;
+}
+
+/* Selector for the third row at the third grid */
+.third-grid-third-row {
+  height: 90px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  display: flex;
+  align-items: center;
+}
+
+/* Selector for spans at the third row at the third grid */
+.third-grid-third-row span {
+  color: #aaa;
+}
+
+/* Selector for the fourth section grid */
+.fourth-section-grid {
+  max-width: 1152px;
+  margin: 75px auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 32px 25px;
+  padding: 0 20px;
+}
+
+/* Selector for the header of articles at fourth grid */
+.fourth-grid-article-header {
+  margin: 0 0 14px 0;
+}
+
+/* Custom selector for articles at fourth grid */
+.fourth-grid-section {
+  position: relative;
+}
+
+/* Selector for the ul inside each section at the fourth section */
+.fourth-section-list {
+  list-style: none;
+}
+
+/* Selector for images inside the articles at fourth grid */
+.fourth-grid-article-image {
+  min-width: 312px;
+  max-width: 100%;
+  min-height: 277px;
+  background-size: cover;
+}
+
+/* Selector for the first image at fourth section */
+.fourth-grid-article-image-one {
+  background-image: url(images/img_fourth_grid/img_one.jpg);
+}
+
+/* Selector for the second image at fourth section */
+.fourth-grid-article-image-two {
+  background-image: url(images/img_fourth_grid/img_two.jpg);
+}
+
+/* Selector for the third image at fourth section */
+.fourth-grid-article-image-three {
+  background-image: url(images/img_fourth_grid/img_three.jpg);
+}
+
+/* Selector for the fourth image at fourth section */
+.fourth-grid-article-image-four {
+  background-image: url(images/img_fourth_grid/img_four.jpg);
+}
+
+/* Selector for the fifth image at fourth section */
+.fourth-grid-article-image-five {
+  background-image: url(images/img_fourth_grid/img_five.jpg);
+}
+
+/* Selector for the sixth image at fourth section */
+.fourth-grid-article-image-six {
+  background-image: url(images/img_fourth_grid/img_six.jpg);
+}
+
+/* Selector for the seventh image at fourth section */
+.fourth-grid-article-image-seven {
+  background-image: url(images/img_fourth_grid/img_seven.jpg);
+}
+
+/* Selector for the eighth image at fourth section */
+.fourth-grid-article-image-eight {
+  background-image: url(images/img_fourth_grid/img_eight.jpg);
+}
+
+/* Selector for the container which adds a gradient inside the first article of each section at section four */
+.fourth-grid-image-gradient {
+  background-image: linear-gradient(transparent, black);
+}
+
+/* Selector for the container which adds a gradient inside the first article of each section at section four when the user hovers on it */
+.fourth-grid-image-gradient:hover {
+  cursor: pointer;
+}
+
+/* Selector for the category at the first article at sections at fourth section */
+.fourth-grid-first-article-category {
+  font-size: 13px;
+  margin: 0 2px 2px 2px;
+}
+
+/* Selector for the category at the first article at sections at fourth section when the user hovers on it */
+.fourth-grid-first-article-category:hover {
+  cursor: default;
+}
+
+/* Selector for the container inside the header of the first article at the fourth section */
+.header-container-fourth-section {
+  padding-left: 12px;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* Selector for the container of the data for the first article at each section of section four */
+.fourth-grid-article-data-container {
+  margin-left: 2px;
+}
+
+/* Selector for the dot inside the data container at the first article at sections at the fourth section */
+.dot:hover {
+  cursor: default;
+}
+
+/* Selector for the second articles containers at the fourth section */
+.fourth-grid-second-article-container {
+  width: 100%;
+  height: 97px;
+  background-color: rgba(255, 68, 34, 0.06);
+  position: relative;
+  margin-top: 1px;
+}
+
+/* Selector for the container of the headers at the second articles at the fourth section */
+.fourth-grid-second-article-header-container {
+  height: 100%;
+  width: calc(100% - 97px);
+  color: #f42;
+}
+
+/* Selector for the h2 at the second article header at the fourth section */
+.fourth-grid-second-article-header {
+  font-size: 14px;
+  margin: 18px 14px;
+  overflow: hidden;
+}
+
+/* Selector for the h2 at the second article header at the fourth section when the user hovers on it */
+.fourth-grid-second-article-header-container h2:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 68, 34, 0.3);
+  cursor: pointer;
+}
+
+/* Selector for the images at the second articles at the fourth section */
+.fourth-grid-second-article-image {
+  width: 97px;
+  height: 100%;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+/* Selector for the li elements at fourth section   */
+.fourth-section-list-element {
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  display: flex;
+}
+
+/* Selector for the red bullet points inside fourth section  */
+.fa-circle {
+  margin-top: 16px;
+  margin-right: 10px;
+  color: #f42;
+  font-size: 4px;
+}
+
+/* Selector for the links inside fourth section  */
+.fourth-section-text-links {
+  margin: 9px 0 7px 0;
+}
+
+/* Fifth section class  */
+.fifth-section {
+  padding: 0 20px 320px 20px;
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+/* Custom text for the header container  */
+.fifth-section-header-container {
+  position: relative;
+}
+
+/* Custom class for red text "Latest Delas"  */
+.latest-deals {
+  display: inline;
+  margin-left: 0;
+}
+
+/* Selector for subheader at fifth section */
+.fifth-section-sub-header {
+  float: right;
+  margin-top: 7px;
+}
+
+/* Selector for Fifth section grid   */
+.fifth-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+  width: 100%;
+  height: 600px;
+  grid-gap: 30px 25px;
+}
+
+/* Custom class for images inside fifth section  */
+.fifth-grid-image {
+  width: 100%;
+}
+
+/* Container for the image  */
+.fifth-grid-image-container {
+  width: 100%;
+  height: 202px;
+  position: relative;
+}
+
+/* Container for the image  */
+.fifth-grid-image-container img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 201px;
+}
+
+/* Fifth grid container for the yellow image. Disccount image  */
+.fifth-grid-disccount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+
+/* Custom Selector for disccount text  */
+.disccount-text {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 22px;
+  right: -2px;
+  transform: rotate(45deg);
+}
+
+/* Sub Headers Fifth Grid  */
+.fifth-grid-sub-header {
+  font-size: 16px;
+}
+
+/* Custom class for f=hover effect. Fifth section  */
+.fifth-grid-sub-header:hover {
+  text-decoration: underline;
+  color: #f42;
+  text-decoration-color: rgba(255, 68, 34, 0.3);
+}
+
+/* Custom class for the line trough effect  */
+.middle-line {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 13px;
+  margin-right: 4px;
+  padding: 3px 0;
+}
+
+/* Custom class for the disccount  */
+.disccount {
+  color: #555;
+}
+
+/* Selector for the footer */
+footer {
+  text-align: center;
+  background-color: #131313;
+  width: 100%;
+  height: 260px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Selector for the first ul element at the footer */
+.first-footer-list-container {
+  display: flex;
+  width: 380px;
+  justify-content: space-around;
+  margin: 54px auto 44px auto;
+  list-style: none;
+}
+
+/* Selector for logo elements inside the first ul element at the footer */
+.footer-logo {
+  color: white;
+  width: 16px;
+  height: 16px;
+}
+
+/* Selector for the second ul element at the footer */
+.second-footer-list-container {
+  display: flex;
+  justify-content: space-around;
+  width: 335px;
+  margin: 0 auto;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Selector for the copyright text container at the very bottom of the page */
+.copyright-container {
+  position: absolute;
+  bottom: 42px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/* Selector for logos at the footer */
+.logo-footer {
+  height: 9px;
+}
+
+/* Selector for b elements */
+b {
+  color: #f42;
+}
+
+/* ==============================================================================
+MEDIA QUERIES FOR UNDER 1024PX WIDTH
+============================================================================== */
+
+/* These rules will apply below 1024px */
+@media (max-width: 1024px) {
+  /* Selector for the container of the logo at the navbar */
+  .navbar-logo-container {
+    width: 110px;
+    height: 82px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+
+  /* Selector for the logo of Next Web */
+  .next-web-logo {
+    width: 66px;
+    height: 16px;
+  }
+
+  /* Selector for the yellow div at the container */
+  .yellow-div {
+    padding-left: 130px;
+  }
+
+  /* Selector for the first grid at the first section */
+  .first-grid {
+    height: 360px;
+  }
+
+  /* Selector for the container containing the image used as a second layer for the first article at the first grid */
+  .cover-gradient {
+    display: none;
+  }
+
+  /* Selector for the logo used on the cover */
+  .cover-logo {
+    display: none;
+  }
+
+  /* Selector for the date found at the cover */
+  .cover-date {
+    display: none;
+  }
+
+  /* Selector for the container of the header elements at the first article at the first grid */
+  .header-container {
+    padding-left: 12px;
+  }
+
+  /* Selector for h2 links at the cover article */
+  .cover-article-header a:link {
+    font-size: 40px;
+  }
+
+  /* Selector for article headers that are not the cover */
+  .no-cover-article-header {
+    line-height: 0.8;
+  }
+
+  /* Selector for the links inside secondary sections of first grid */
+  .no-cover-article-header a:link {
+    font-size: 14px;
+  }
+
+  /* Selector for no cover category at the articles at the first grid */
+  .first-grid-no-cover-category {
+    position: relative;
+    top: -2px;
+  }
+
+  /* Selector for ul at articles at the first grid at the first section */
+  .first-grid-not-cover-article-data-container {
+    margin-top: 5px;
+    margin-bottom: 1px;
+  }
+
+  /* Selector for the icons placed inside articles at the first section */
+  .article-icon {
+    margin: 0 5px 16px 8px;
+  }
+
+  /* Selector for the share container at the data container at the no cover articles at the first grid */
+  .share-container {
+    display: none;
+  }
+
+  /* Selector for my second grid template */
+  .second-grid {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+  }
+
+  /* Selector for the text inside my second grid */
+  .second-grid h2 {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Selector for the ul at the articles at the second grid */
+  .second-grid-article ul {
+    margin: 0 8px 0 8px;
+  }
+
+  /* Selector for the images inside each element at the second grid */
+  .second-grid-img {
+    height: 160px;
+    margin-bottom: 8px;
+  }
+
+  /* Custom class for displaying latest news  */
+  .latest-news {
+    margin: 64px auto 30px 20px;
+    padding-left: 0;
+  }
+
+  /* Selector for the third section */
+  .third-section {
+    padding: 0;
+  }
+
+  /* Custom selector for the container for the title at third section  */
+  .third-section-header {
+    margin-left: 20px;
+  }
+
+  /* Selector for the links of unordered list at the top of third grid */
+  .third-grid-list {
+    float: none;
+  }
+
+  /* Selector for my third grid */
+  .third-article-grid {
+    height: 250px;
+    grid-template: 1fr / repeat(3, 1fr);
+    grid-column-gap: 20px;
+    max-width: 100%;
+    padding: 0;
+    margin: 24px 20px 0 20px;
+  }
+
+  /* Custom class for fourth article third grid */
+  .third-grid-fourth-article {
+    display: none;
+  }
+
+  /* Selector for the fourth section grid */
+  .fourth-section-grid {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    grid-gap: 44px 20px;
+  }
+
+  /* Selector for my last grid  */
+  .fifth-grid {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    padding-bottom: 250px;
+  }
+
+  /* Default selector for "Latest deals" text. Inside fifth grid */
+  .latest-deals {
+    display: inline;
+  }
+
+  /* Selector for subheader at fifth section */
+  .fifth-section-sub-header {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+/* Media query for under 880px */
+@media (max-width: 880px) {
+  .navbar-row-one-right-links {
+    display: none;
+  }
+}
+
+/* ==============================================================================
+MEDIA QUERIES FOR UNDER 768PX WIDTH
+============================================================================== */
+
+/* These rules will apply below 768px */
+@media (max-width: 768px) {
+  /* Selector for the container of the logo at the navbar */
+  .navbar-logo-container {
+    width: 106px;
+    height: 50px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  }
+
+  /* Selector for the ul at the navbar */
+  .nav-list {
+    display: none;
+  }
+
+  /* Selector for the element used to hide my nav elements */
+  .hidden-element-nav-bar {
+    display: none;
+  }
+
+  /* Selector for the container which contains the hamburger menu */
+  .hamburger-container {
+    float: right;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #f42;
+    border-left: 1px solid #eee;
+  }
+
+  /* Selector for the container which contains the hamburger menu when the user hovers on it */
+  .hamburger-container:hover {
+    cursor: pointer;
+  }
+
+  /* Selector for the hamburger menu. Font awesome */
+  .fa-bars {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+  }
+
+  /* Selector for the yellow div at navbar */
+  .yellow-div {
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Selector for the first grid */
+  .first-grid {
+    grid-template: repeat(3, 1fr) / 1fr;
+    width: calc(100% - 20px);
+    padding: 0;
+    margin: 2px auto;
+    height: auto;
+  }
+
+  /* Selector for the whole articles on the first grid */
+  .first-grid-article {
+    min-height: 30vh;
+  }
+
+  /* Selector for anchors found before the header at articles at first grid */
+  .first-grid-article-anchor {
+    position: relative;
+    top: 2px;
+  }
+
+  /* Selector for no cover category at the articles at the first grid */
+  .first-grid-no-cover-category {
+    position: relative;
+    top: -1px;
+  }
+
+  /* Selector for the text (Headers) inside the first grid */
+  .cover-article-header a:link {
+    font-size: 20px;
+  }
+
+  /* Selector for the ul at the articles at the first section */
+  .first-grid-article-data-container {
+    margin-top: 4px;
+  }
+
+  /* Selector for the share icon inside my first grid  */
+  .share-container {
+    display: inline-block;
+  }
+
+  /* Selector for the article one inside first grid */
+  .first-grid-article-one {
+    grid-area: 1 / 1 / span 1 / span 1;
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+
+  /* Selector for my second grid template */
+  .second-grid {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-row-gap: 6px;
+  }
+
+  /* Selector for the images inside each element at the second grid */
+  .second-grid-img {
+    width: 77px;
+    height: 77px;
+    background-position-x: 50%;
+    float: left;
+  }
+
+  /* Selector for text elements inside the articles at grid two */
+  .second-grid-768-text {
+    position: relative;
+    left: 12px;
+    max-height: 60px;
+    overflow: hidden;
+  }
+
+  /* Selector for the links of unordered list at the top of third grid */
+  .third-grid-list {
+    display: block;
+    margin-top: 16px;
+  }
+
+  /* Selector for the list elements inside third grid list */
+  .third-grid-list li {
+    margin-top: 11px;
+  }
+
+  /* Style for the vertical bar which works as a separator for the items inside ul third grid  */
+  .pipes-style {
+    display: none;
+  }
+
+  /* Selector for my third grid */
+  .third-article-grid {
+    grid-template: repeat(3, 1fr) / 1fr;
+    grid-row-gap: 18px;
+    height: 810px;
+  }
+
+  /* Selector for the Main header inside third grid */
+  .third-grid-header {
+    font-size: 25px;
+  }
+
+  /* Selector for the fourth section grid */
+  .fourth-section-grid {
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-gap: 15px;
+  }
+
+  /* Selector for images inside the articles at fourth grid */
+  .fourth-grid-article-image {
+    height: 70vw;
+    min-width: 207px;
+  }
+
+  /* Selector for my last grid */
+  .fifth-grid {
+    grid-template: repeat(8, 1fr) / repeat(1, 1fr);
+  }
+
+  /* Default container which contains the images inside fifth grid  */
+  .fifth-grid-image-container {
+    width: 77px;
+    height: 77px;
+    float: left;
+    margin-right: 13px;
+  }
+
+  /* Selector to hide elements  */
+  .hidden-class {
+    display: none;
+  }
+
+  /* Defeulta secletor for subheaders inside fifth grid  */
+  .fifth-grid-sub-header {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    line-break: normal;
+    cursor: pointer;
+  }
+
+  /* Default selector for "Latest deals" text. Inside fifth grid */
+  .latest-deals {
+    display: inline;
+    font-size: 24px;
+    position: relative;
+    right: 2px;
+  }
+
+  /* Selector for subheader at fifth section */
+  .fifth-section-sub-header {
+    float: right;
+    font-size: 14px;
+  }
+
+  /* Selector for the second ul element at the footer */
+  .second-footer-list-container {
+    width: 274px;
+  }
+
+  /* Selector for the first ul element at the footer */
+  .first-footer-list-container {
+    width: 320px;
+    margin-top: 47px;
+  }
+
+  /* Selector for links inside the second ul element at the footer */
+  .second-footer-list-container a:link {
+    margin: 0 6px;
+  }
+
+  /* Selector for the footer */
+  footer {
+    height: 284px;
+  }
+
+  /* Selector for the copyright text container at the very bottom of the page */
+  .copyright-container {
+    display: block;
+    bottom: 34px;
+  }
+
+  /* Selector for the last two spans of the document */
+  .last-spans {
+    display: block;
+    padding-top: 6px;
+  }
+}
+
+/* These rules will apply below 768px and in landscape orientation for mobile devices */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Selector for the whole articles on the first grid */
+  .first-grid-article {
+    min-height: 60vh;
+  }
+}
